@@ -1,0 +1,697 @@
+which WDT O
+ttu DT O
+version NN O
+is VBZ O
+supported VBN O
+by IN O
+windows NNS OS
+8 CD OS
+
+
+which WDT O
+ttu DT O
+version NN O
+is VBZ O
+supported VBN O
+by IN O
+win NN OS
+8 CD OS
+
+
+which WDT O
+ttu DT O
+version NN O
+is VBZ O
+supported VBN O
+by IN O
+win7 NN OS
+
+
+which WDT O
+ttu DT O
+version NN O
+is VBZ O
+supported VBN O
+by IN O
+windows NNS OS
+7 CD OS
+
+
+which WDT O
+ttu DT O
+version NN O
+is VBZ O
+supported VBN O
+by IN O
+SUSE NNP OS
+Enterprise NNP OS
+Linux NNP OS
+8 CD OS
+
+
+which WDT O
+ttu DT O
+version NN O
+is VBZ O
+supported VBN O
+by IN O
+SUSE NNP OS
+8 CD OS
+
+
+what WP O
+is VBZ O
+the DT O
+status NN O
+of IN O
+ttu NN O
+for IN O
+windows NNS OS
+8 CD OS
+
+
+what WP O
+is VBZ O
+the DT O
+status NN O
+of IN O
+ttu NN O
+for IN O
+mac NN OS
+os CD OS
+x NN OS
+
+
+what WP O
+is VBZ O
+the DT O
+status NN O
+of IN O
+ttu NN O
+for IN O
+rhel NN OS
+
+
+what WP O
+is VBZ O
+the DT O
+status NN O
+of IN O
+ttu NN O
+for IN O
+redhat WP OS
+linux NN OS
+
+
+what WP O
+is VBZ O
+the DT O
+status NN O
+of IN O
+ttu NN O
+for IN O
+win $ OS
+8 CD OS
+
+
+what WP O
+is VBZ O
+the DT O
+status NN O
+of IN O
+ttu NN O
+for IN O
+win7 NN OS
+
+
+what WP O
+is VBZ O
+the DT O
+status NN O
+of IN O
+ttu NN O
+for IN O
+windows NNS OS
+server RB OS
+2008 CD OS
+
+
+is VBZ O
+windows JJ OS
+8 CD OS
+supported VBN O
+by IN O
+ttu NN O
+
+
+is VBZ O
+zos VBN OS
+supported VBN O
+by IN O
+ttu NN O
+
+
+is VBZ O
+windows JJ OS
+8 CD OS
+supported VBN O
+by IN O
+ttu NN O
+
+
+is VBZ O
+win7 VBN OS
+supported VBN O
+by IN O
+ttu NN O
+
+
+is VBZ O
+SUSE NNP OS
+Enterprise NNP OS
+linux VBZ OS
+8 CD OS
+supported VBN O
+by IN O
+ttu NN O
+
+
+is VBZ O
+windows NNS OS
+server RB OS
+2008 CD OS
+supported VBN O
+by IN O
+ttu NN O
+
+
+is VBZ O
+rhel VBN OS
+supported VBN O
+by IN O
+ttu NN O
+
+
+is VBZ O
+redhat DT OS
+linux NN OS
+supported VBN O
+by IN O
+ttu NN O
+
+
+does VBZ O
+windows NNS OS
+10 CD OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+windows10 NN OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+win VB OS
+10 CD OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+windows NNS OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+win VB OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+suse VB OS
+8 CD OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+windows NNS OS
+server VB OS
+08 CD OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+mac RBS OS
+osx PRP OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+macosx NN OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+macos NN OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+does VBZ O
+mac RBS OS
+os PRP OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+located VBN O
+in IN O
+kolkata NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+located VBN O
+in IN O
+hyd NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+located VBN O
+in IN O
+hyderabad NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+located VBN O
+in IN O
+delhi NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+located VBN O
+in IN O
+mumbai NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+located VBN O
+in IN O
+india NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+located VBN O
+in IN O
+ind NN LOC
+
+
+what WP O
+is VBZ O
+the DT O
+location NN O
+of IN O
+teradata NN O
+in IN O
+india NN LOC
+
+
+what WP O
+is VBZ O
+the DT O
+location NN O
+of IN O
+teradata NN O
+in IN O
+hyderabad NN LOC
+
+
+what WP O
+is VBZ O
+the DT O
+location NN O
+of IN O
+teradata NN O
+in IN O
+hyd NN LOC
+
+
+what WP O
+is VBZ O
+the DT O
+location NN O
+of IN O
+teradata NN O
+in IN O
+ind NN LOC
+
+
+what WP O
+is VBZ O
+the DT O
+location NN O
+of IN O
+teradata NN O
+in IN O
+delhi NN LOC
+
+
+what WP O
+is VBZ O
+the DT O
+location NN O
+of IN O
+teradata NN O
+in IN O
+mumbai NN LOC
+
+
+what WP O
+is VBZ O
+the DT O
+location NN O
+of IN O
+teradata NN O
+in IN O
+kolkata NN LOC
+
+
+what WP O
+is VBZ O
+the DT O
+location NN O
+of IN O
+teradata NN O
+in IN O
+bangalore NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+in IN O
+kolkata NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+in IN O
+hyd NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+in IN O
+hyderabad NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+in IN O
+delhi NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+in IN O
+mumbai NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+in IN O
+india NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+office NN O
+in IN O
+ind NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+establishment NN O
+in IN O
+kolkata NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+establishment NN O
+in IN O
+hyd NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+establishment NN O
+in IN O
+hyderabad NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+establishment NN O
+in IN O
+delhi NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+establishment NN O
+in IN O
+mumbai NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+establishment NN O
+in IN O
+india NN LOC
+
+
+is VBZ O
+there EX O
+a DT O
+teradata NN O
+establishment NN O
+in IN O
+ind NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+located VBN O
+in IN O
+hyderabad NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+located VBN O
+in IN O
+hyd NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+located VBN O
+in IN O
+kolkata NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+located VBN O
+in IN O
+pune NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+located VBN O
+in IN O
+mumbai NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+located VBN O
+in IN O
+delhi NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+located VBN O
+in IN O
+india NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+office NN O
+located VBN O
+in IN O
+ind NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+office NN O
+located VBN O
+in IN O
+hyderabad NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+office NN O
+located VBN O
+in IN O
+hyd NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+office NN O
+located VBN O
+in IN O
+kolkata NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+office NN O
+located VBN O
+in IN O
+pune NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+office NN O
+located VBN O
+in IN O
+mumbai NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+office NN O
+located VBN O
+in IN O
+delhi NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+office NN O
+located VBN O
+in IN O
+india NN LOC
+
+
+where WRB O
+is VBZ O
+teradata JJ O
+office NN O
+located VBN O
+in IN O
+ind NN LOC

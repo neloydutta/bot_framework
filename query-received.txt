@@ -1,0 +1,10 @@
+{"result": {"query_string": "this will a random dummy message", "intent": "teradata.location"}, "entities": {}}
+{"result": {"query_string": "this is another random for feature-verification", "intent": "teradata.location"}, "entities": {"OS": ["feature-verification"]}}
+{"result": {"query_string": "this is another random message for next-stage-feature-verification", "intent": "teradata.location"}, "entities": {"OS": ["next-stage-feature-verification"]}}
+{"result": {"query_string": "this is random for nothing", "intent": "bot.greet"}, "entities": {}}
+{"result": {"query_string": "i don't know what you are saying", "intent": "bot.greet"}, "entities": {"OS": ["do n't"]}}
+{"result": {"query_string": "why does every thing goes for greet", "intent": "bot.greet"}, "entities": {}}
+{"result": {"query_string": "is there a teradata office located in kolkata", "intent": "teradata.location"}, "entities": {}}
+{"result": {"query_string": "what is the location of teradata in india", "intent": "teradata.location"}, "entities": {}}
+{"result": {"query_string": "is there a teradata establishment in chennai", "intent": "teradata.location"}, "entities": {"LOC": ["chennai"]}}
+{"result": {"query_string": "teradata location in pune", "intent": "teradata.location"}, "entities": {"LOC": ["pune"]}}
