@@ -35,8 +35,8 @@ class Intent:
         return_dict = {}
         # print(type(query_str))
         # print(len(query_list))
-        if type(query_str) == str:
-            query_list = [query_str]
+        if type(query) == str:
+            query_list = [query]
             predicted = self.clf.predict(query_list)
             return_dict['query_string'] = query_str
             return_dict['intent'] = bot_intent_train.target_names[predicted[0]]
