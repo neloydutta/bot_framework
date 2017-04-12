@@ -1,0 +1,11 @@
+{
+  "greet" : "Hello there! ask me question about teradata, location of teradata, ttu os support",
+  "about" : "Teradata is a Fortune 1000 provider of data warehouse platforms, software and services. The company was formed in 1979 in a garage in Brentwood, CA, as a collaboration between researchers at Caltech and Citibank's advanced technology group.[2] The company was acquired by NCR in 1991, and subsequently spun-off again as an independent public company on October 1, 2007.",
+  "name" : "The name Teradata symbolized the ability to manage terabytes (trillions of bytes) of data.",
+  "location" : {
+    "hyderabad": "5th Floor, Orion Block, Ascendas, Plot #17, Software Units Layout, Inorbit Mall Rd, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081",
+    "delhi": "Teradata India Pvt. Ltd. Unit 303, Block 1, DLF Corporate Park, S Block, DLF City III, MG Road, Gurgaon 122002, Haryana - India",
+    "mumbai": "Teradata India Pvt. Ltd, G1, Nomura Bldg., High Street, Hiranandani Business Park, Powai, Mumbai 400076",
+    "india": "Hyderabad: 5th Floor, Orion Block, Ascendas, Plot #17, Software Units Layout, Inorbit Mall Rd, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081\nDelhi: Teradata India Pvt. Ltd. Unit 303, Block 1, DLF Corporate Park, S Block, DLF City III, MG Road, Gurgaon 122002, Haryana - India\nMumbai: Teradata India Pvt. Ltd, G1, Nomura Bldg., High Street, Hiranandani Business Park, Powai, Mumbai 400076"
+  }
+}

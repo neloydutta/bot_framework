@@ -1,8 +1,1 @@
-{
-  "endcount": {"teradata.about": 13, "teradata.location": 14, "teradata.name.why": 7, "ttu.os.support": 32, "bot.greet": 26},
-  "teradata.about": [],
-  "teradata.location": [],
-  "teradata.name.why": [],
-  "ttu.os.support": [],
-  "bot.greet": []
-}
+{"endcount": {"teradata.about": 55, "teradata.location": 50, "teradata.name.why": 21, "ttu.os.support": 33, "bot.greet": 39}, "teradata.about": [], "teradata.location": [], "teradata.name.why": [], "ttu.os.support": [], "bot.greet": []}

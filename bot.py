@@ -15,14 +15,14 @@ class Bot:
             fp.write("\n")
         return result
 
-    def bot_reply(self, result):
-        print("User Intent for the message was: " + result['result']['intent'])
-        if result['entities'].keys():
-            print("Entities: ", )
-            for entity_type in result['entities']:
-                print("\n" + entity_type, )
-                for entity in result['entities'][entity_type]:
-                    print(entity + ", ", )
+    # def bot_reply(self, result):
+    #     print("User Intent for the message was: " + result['result']['intent'])
+    #     if result['entities'].keys():
+    #         print("Entities: ", )
+    #         for entity_type in result['entities']:
+    #             print("\n" + entity_type, )
+    #             for entity in result['entities'][entity_type]:
+    #                 print(entity + ", ", )
 
 
 def train_for_user_samples():
@@ -32,7 +32,10 @@ def train_for_user_samples():
     with open("data.json", "r") as fp:
         data = json.load(fp)
     for query in queries:
-        query_json = json.loads(query)
+        try:
+            query_json = json.loads(query)
+        except:
+            continue
         print(query_json["result"]["query_string"] + " => " + query_json["result"]["intent"])
         ip = str(input("Approve? (y/n) "))
         if ip == "y" or ip == "Y":
@@ -44,13 +47,15 @@ def train_for_user_samples():
                 data[query_json["result"]["intent"]].append(query_json["result"]["query_string"])
     with open("data.json", "w") as fp:
         json.dump(data, fp)
+    with open("query-received.txt", "w") as fp:
+        fp.truncate()
     generating_traindata.generate()
     return Bot()
 
 
 if __name__ == "__main__":
+    train_for_user_samples()
     bot = Bot()
     while True:
         msg = str(input("Enter: "))
         print(bot.listen(message=msg))
-    train_for_user_samples()

@@ -2,8 +2,14 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.datasets import load_files
-from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import RandomForestClassifier
+import string
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 # from sklearn.model_selection import GridSearchCV
+
+stop_words = " ".join(stopwords.words('english'))
+stop_words = word_tokenize(stop_words, language='english')
 
 
 class Intent:
@@ -12,7 +18,8 @@ class Intent:
         self.load_data()
         self.clf = Pipeline([('vect', CountVectorizer()),
                              ('tfidf', TfidfTransformer()),
-                             ('clf', AdaBoostClassifier())
+                             # ('clf', AdaBoostClassifier())
+                             ('clf', RandomForestClassifier())
                              ])
         self.clf.fit(bot_intent_train.data, bot_intent_train.target)
 
@@ -22,6 +29,9 @@ class Intent:
                                       encoding='utf-8', decode_error='ignore', random_state=0)
 
     def predict(self, query_str):
+        words = word_tokenize(query_str)
+        words = [word for word in words if word not in stop_words and word not in string.punctuation]
+        query = " ".join(words).strip()
         return_dict = {}
         # print(type(query_str))
         # print(len(query_list))
@@ -36,8 +46,8 @@ class Intent:
 
 
 def train():
-    text_clf_Ada = Intent()
-    return text_clf_Ada
+    text_clf = Intent()
+    return text_clf
 
 
 if __name__ == "__main__":
