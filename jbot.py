@@ -3,6 +3,8 @@ from jira import JIRA
 # jiras = JIRA('https://jira.atlassian.com')
 #
 # authed_jira = JIRA(server='https://jira.atlassian.com', basic_auth=('neloy.dutta@gmail.com', 'laddu1993'))
+from jira.exceptions import JIRAError
+
 
 class JIRAClass:
 
@@ -53,7 +55,7 @@ class JIRAClass:
             # print(issue.fields.worklog.)
             return issue_json
 
-        except Exception as e:
+        except JIRAError as e:
             # print(e)
             return {
                 'message': e.text
