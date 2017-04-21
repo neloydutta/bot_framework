@@ -75,3 +75,23 @@ where is teradata office located in mumbai
 where is teradata office located in delhi
 where is teradata office located in india
 where is teradata office located in ind
+issue SOMEKEY-10
+issue SOMEKEY-20
+get issue SOMEKEY-10
+find issue SOMEKEY-17
+retrieve issue SOMEKEY-10
+what is status of SOMEKEY-10
+what is the status of the issue SOMEKEY-19
+tell me about issue SOMEKEY-20
+who is the reporter of issue SOMEKEY-11
+who reported SOMEKEY-10
+who is the reporter of SOMEKEY-13
+who reported the issue SOMEKEY-22
+who is the assignee of issue SOMEKEY-11
+who is the assignee of SOMEKEY-13
+to whom issue SOMEKEY-10 is assigned
+to whom SOMEKEY-13 is assigned
+who all are watching the issue SOMEKEY-19
+who are watchers of SOMEKEY-10
+status of the issue SOMEKEY-11
+status of SOMEKEY-11

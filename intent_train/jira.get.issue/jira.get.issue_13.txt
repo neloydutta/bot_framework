@@ -1,0 +1,1 @@
+to whom issue SOMEKEY-10 is assigned

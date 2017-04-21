@@ -18,14 +18,12 @@ class Intent:
         self.load_data()
         self.clf = Pipeline([('vect', CountVectorizer()),
                              ('tfidf', TfidfTransformer()),
-                             # ('clf', AdaBoostClassifier())
                              ('clf', RandomForestClassifier())
                              ])
-        self.clf.fit(bot_intent_train.data, bot_intent_train.target)
+        self.clf.fit(self.bot_intent_train.data, self.bot_intent_train.target)
 
     def load_data(self):
-        global bot_intent_train
-        bot_intent_train = load_files(self.train_data_location, description=None, load_content=True, shuffle=True,
+        self.bot_intent_train = load_files(self.train_data_location, description=None, load_content=True, shuffle=True,
                                       encoding='utf-8', decode_error='ignore', random_state=0)
 
     def predict(self, query_str):
@@ -39,7 +37,7 @@ class Intent:
             query_list = [query]
             predicted = self.clf.predict(query_list)
             return_dict['query_string'] = query_str
-            return_dict['intent'] = bot_intent_train.target_names[predicted[0]]
+            return_dict['intent'] = self.bot_intent_train.target_names[predicted[0]]
         else:
             raise ValueError("Expected str, found " + str(type(query_str)))
         return return_dict

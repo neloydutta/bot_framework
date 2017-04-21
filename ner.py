@@ -263,7 +263,7 @@ def train():
         raise Exception("No Training-Data found!")
     reader_train = read_gmb_ner("./ner_train")
     # reader_test = read_gmb_ner("./ner_os_traindata")
-    all_classes = ['O', 'B-OS', 'I-OS', 'B-LOC', 'I-LOC']
+    all_classes = ['O', 'B-OS', 'I-OS', 'B-LOC', 'I-LOC', 'B-ISU', 'I-ISU']
     pa_ner = ScikitLearnChunker.train(itertools.islice(reader_train, 50000), feature_detector=ner_features,
                                       all_classes=all_classes, batch_size=50, n_iter=5)
     # accuracy = pa_ner.score(itertools.islice(reader_test, 1000))
