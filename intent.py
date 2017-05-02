@@ -42,6 +42,11 @@ class Intent:
             raise ValueError("Expected str, found " + str(type(query_str)))
         return return_dict
 
+    def score(self):
+        bot_intent_test = load_files(self.train_data_location, description=None, load_content=True, shuffle=True,
+                                      encoding='utf-8', decode_error='ignore', random_state=0)
+        return self.clf.score(bot_intent_test.data, bot_intent_test.target)
+
 
 def train():
     text_clf = Intent()
@@ -50,4 +55,7 @@ def train():
 
 if __name__ == "__main__":
     clf = train()
-    print(clf.predict("what version of ttu has windows 10 support"))
+    print(clf.score())
+    while True:
+        ip = str(input("Enter>> "))
+        print(clf.predict(ip))

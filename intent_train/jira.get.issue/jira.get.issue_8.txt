@@ -1,1 +1,1 @@
-who reported SOMEKEY-10
+get information on issue SOMEKEY-10

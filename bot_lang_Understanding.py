@@ -15,6 +15,14 @@ class BotLU:
             "entities": en
         }
 
+    def get_scores(self):
+        ner_score = self.ner_classifier.score()
+        intent_score = self.intent_classifier.score()
+        return {
+            'Entity Recognition': ner_score,
+            'Intent Detection': intent_score
+        }
+
 
 if __name__ == "__main__":
     bot_lu = BotLU()

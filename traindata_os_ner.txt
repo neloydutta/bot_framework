@@ -697,121 +697,121 @@ in IN
 ind NN
 
 
-issue NN O
-SOMEKEY-10 NNP ISU
+issue NN
+SOMEKEY-10 NNP
 
 
-issue NN O
-SOMEKEY-20 NNP ISU
+issue NN
+SOMEKEY-20 NNP
 
 
-get VB O
-issue NN O
-SOMEKEY-10 NNP ISU
+get VB
+issue NN
+SOMEKEY-10 NNP
 
 
-find VB O
-issue NN O
-SOMEKEY-17 NNP ISU
+find VB
+issue NN
+SOMEKEY-17 NNP
 
 
-retrieve JJ O
-issue NN O
-SOMEKEY-10 NNP ISU
+retrieve JJ
+issue NN
+SOMEKEY-10 NNP
 
 
-what WP O
-is VBZ O
-status NN O
-of IN O
-SOMEKEY-10 NNP ISU
+what WP
+is VBZ
+status NN
+of IN
+SOMEKEY-10 NNP
 
 
-what WP O
-is VBZ O
-the DT O
-status NN O
-of IN O
-the DT O
-issue NN O
-SOMEKEY-19 NNP ISU
+what WP
+is VBZ
+the DT
+status NN
+of IN
+the DT
+issue NN
+SOMEKEY-19 NNP
 
 
-tell VB O
-me PRP O
-about IN O
-issue NN O
-SOMEKEY-20 NNP ISU
+tell VB
+me PRP
+about IN
+issue NN
+SOMEKEY-20 NNP
 
 
-who WP O
-is VBZ O
-the DT O
-reporter NN O
-of IN O
-issue NN O
-SOMEKEY-11 NNP ISU
+who WP
+is VBZ
+the DT
+reporter NN
+of IN
+issue NN
+SOMEKEY-11 NNP
 
 
-who WP O
-reported VBD O
-SOMEKEY-10 NNP ISU
+who WP
+reported VBD
+SOMEKEY-10 NNP
 
 
-who WP O
-is VBZ O
-the DT O
-reporter NN O
-of IN O
-SOMEKEY-13 NNP ISU
+who WP
+is VBZ
+the DT
+reporter NN
+of IN
+SOMEKEY-13 NNP
 
 
-who WP O
-reported VBD O
-the DT O
-issue NN O
-SOMEKEY-22 NNP ISU
+who WP
+reported VBD
+the DT
+issue NN
+SOMEKEY-22 NNP
 
 
-who WP O
-is VBZ O
-the DT O
-assignee NN O
-of IN O
-issue NN O
-SOMEKEY-11 NNP ISU
+who WP
+is VBZ
+the DT
+assignee NN
+of IN
+issue NN
+SOMEKEY-11 NNP
 
 
-who WP O
-is VBZ O
-the DT O
-assignee NN O
-of IN O
-SOMEKEY-13 NNP ISU
+who WP
+is VBZ
+the DT
+assignee NN
+of IN
+SOMEKEY-13 NNP
 
 
-to TO O
-whom WP O
-issue VB O
-SOMEKEY-10 NNP ISU
-is VBZ O
-assigned VBN O
+to TO
+whom WP
+issue VB
+SOMEKEY-10 NNP
+is VBZ
+assigned VBN
 
 
-to TO O
-whom WP O
-SOMEKEY-13 NNP ISU
-is VBZ O
-assigned VBN O
+to TO
+whom WP
+SOMEKEY-13 NNP
+is VBZ
+assigned VBN
 
 
-who WP O
-all DT O
-are VBP O
-watching VBG O
-the DT O
-issue NN O
-SOMEKEY-19 NNP ISU
+who WP
+all DT
+are VBP
+watching VBG
+the DT
+issue NN
+SOMEKEY-19 NNP
 
 
 who WP O
@@ -831,5 +831,63 @@ SOMEKEY-11 NNP ISU
 status NN O
 of IN O
 SOMEKEY-11 NNP ISU
+
+
+track JJ O
+issue NN O
+SOMEKEY-10 NNP ISU
+for IN O
+me PRP O
+
+
+can MD O
+you PRP O
+track VB O
+issue VB O
+SOMEKEY-10 NNP ISU
+for IN O
+me PRP O
+
+
+will MD O
+you PRP O
+track VB O
+issue VB O
+SOMEKEY-10 NNP ISU
+for IN O
+me PRP O
+
+
+issue NN
+SOMEKEY-10 NNP
+was VBD
+reported VBN
+by IN
+whom WP
+
+
+to TO
+whom WP
+is VBZ
+SOMEKEY-10 NNP
+assigned JJ
+
+
+to TO
+whom WP
+is VBZ
+issue NN
+SOMEKEY-14 NN
+assigned VBD
+
+
+who WP
+reported VBD
+SOMEKEY-17 NNP
+
+
+is VBZ
+SOMEKEY-19 NNP
+resolved VBD
 
 

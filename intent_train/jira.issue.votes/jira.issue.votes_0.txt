@@ -1,0 +1,1 @@
+vote count on the issue SOMEKEY-10

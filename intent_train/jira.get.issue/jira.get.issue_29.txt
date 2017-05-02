@@ -1,1 +1,0 @@
-who is the assignee of issue SOMEKEY-11

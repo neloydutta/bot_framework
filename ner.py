@@ -213,14 +213,14 @@ class ScikitLearnChunker(ChunkParserI):
             # print(word, tag, iob_tag)
         return conlltags2tree(iob_tagged_tokens)
 
-    def score(self, parsed_sentences):
-        """
-        Compute the accuracy of the tagger for a list of test sentences
-        :param parsed_sentences: List of parsed sentences: nltk.Tree
-        :return: float 0.0 - 1.0
-        """
-        X_test, y_test = self.__class__.to_dataset(parsed_sentences, self._feature_detector)
+    def score(self):
+        if not os.path.exists("./ner_train") or len(os.listdir("./ner_train")) <= 0:
+            raise Exception("No Training-Data found!")
+        reader_test = read_gmb_ner("./ner_train")
+        # return self._score_util(itertools.islice(reader_test, 1000))
+        X_test, y_test = self.to_dataset(itertools.islice(reader_test, 1000), self._feature_detector)
         return self._classifier.score(X_test, y_test)
+
 
     def extract_entities(self, result):
         entity = {}
@@ -262,17 +262,15 @@ def train():
     if not os.path.exists("./ner_train") or len(os.listdir("./ner_train")) <= 0:
         raise Exception("No Training-Data found!")
     reader_train = read_gmb_ner("./ner_train")
-    # reader_test = read_gmb_ner("./ner_os_traindata")
     all_classes = ['O', 'B-OS', 'I-OS', 'B-LOC', 'I-LOC', 'B-ISU', 'I-ISU']
     pa_ner = ScikitLearnChunker.train(itertools.islice(reader_train, 50000), feature_detector=ner_features,
                                       all_classes=all_classes, batch_size=50, n_iter=5)
-    # accuracy = pa_ner.score(itertools.islice(reader_test, 1000))
-    # print("Accuracy:", accuracy)
     return pa_ner
 
 
 if __name__ == "__main__":
     ner_clf = train()
+    print(ner_clf.score())
     while True:
         try:
             ip = str(input("Enter>>"))

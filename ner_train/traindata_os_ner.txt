@@ -967,3 +967,98 @@ SOMEKEY-11 NNP ISU
 status NN O
 of IN O
 SOMEKEY-11 NNP ISU
+
+
+track JJ O
+issue NN O
+SOMEKEY-10 NNP ISU
+for IN O
+me PRP O
+
+
+can MD O
+you PRP O
+track VB O
+issue VB O
+SOMEKEY-10 NNP ISU
+for IN O
+me PRP O
+
+
+will MD O
+you PRP O
+track VB O
+issue VB O
+SOMEKEY-10 NNP ISU
+for IN O
+me PRP O
+
+
+status NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-11 NNP ISU
+
+
+status NN O
+of IN O
+SOMEKEY-11 NNP ISU
+
+
+track JJ O
+issue NN O
+SOMEKEY-10 NNP ISU
+for IN O
+me PRP O
+
+
+can MD O
+you PRP O
+track VB O
+issue VB O
+SOMEKEY-10 NNP ISU
+for IN O
+me PRP O
+
+
+will MD O
+you PRP O
+track VB O
+issue VB O
+SOMEKEY-10 NNP ISU
+for IN O
+me PRP O
+
+
+issue NN O
+SOMEKEY-10 NNP ISU
+was VBD O
+reported VBN O
+by IN O
+whom WP O
+
+
+to TO O
+whom WP O
+is VBZ O
+SOMEKEY-10 NNP ISU
+assigned JJ O
+
+
+to TO O
+whom WP O
+is VBZ O
+issue NN O
+SOMEKEY-14 NN ISU
+assigned VBD O
+
+
+who WP O
+reported VBD O
+SOMEKEY-17 NNP ISU
+
+
+is VBZ O
+SOMEKEY-19 NNP O
+resolved VBD O

@@ -72,8 +72,30 @@ class JIRAClass:
             project_a.append(project_j)
         return project_a
 
+
+def issue_json_to_str(issuej):
+    return_str = ""
+    for i in issuej.keys():
+        if i == "fields":
+            for field in issuej["fields"].keys():
+                if type(issuej["fields"][field]) == str and issuej["fields"][field] != "":
+                    return_str += field + ": "
+                    return_str += issuej["fields"][field] + "\n"
+                elif type(issuej["fields"][field]) == list and len(issuej["fields"][field]) > 0:
+                    return_str += field + ": "
+                    return_str += ", ".join(issuej["fields"][field]) + "\n"
+        else:
+            return_str += i + ": "
+            if type(issuej[i]) == str:
+                return_str += issuej[i] + "\n"
+            elif type(issuej[i]) == list:
+                return_str += ", ".join(issuej[i]) + "\n"
+    return return_str
+
+
 if __name__ == "__main__":
     njira = JIRAClass('http://localhost:8080/', 'adminuser', 'laddu1993')
     # cissue = njira.create_issue(project='SOMEKEY', summary='This is summary!', description='This is description!', issue_name='Bug')
-    print(njira.find_issue('OMEKEY-10'))
+    # print(njira.find_issue('SOMEKEY-10'))
     # print(njira.find_projects())
+    print(issue_json_to_str(njira.find_issue('SOMEKEY-10')))

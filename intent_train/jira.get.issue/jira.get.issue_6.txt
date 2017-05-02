@@ -1,1 +1,1 @@
-tell me about issue SOMEKEY-20
+get comments which are on the issue SOMEKEY-18

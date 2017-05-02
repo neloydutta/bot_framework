@@ -1,80 +1,3 @@
-which ttu version is supported by windows 8
-which ttu version is supported by win 8
-which ttu version is supported by win7
-which ttu version is supported by windows 7
-which ttu version is supported by SUSE Enterprise Linux 8
-which ttu version is supported by SUSE 8
-what is the status of ttu for windows 8
-what is the status of ttu for mac os x
-what is the status of ttu for rhel
-what is the status of ttu for redhat linux
-what is the status of ttu for win 8
-what is the status of ttu for win7
-what is the status of ttu for windows server 2008
-is windows 8 supported by ttu
-is zos supported by ttu
-is windows 8 supported by ttu
-is win7 supported by ttu
-is SUSE Enterprise linux 8 supported by ttu
-is windows server 2008 supported by ttu
-is rhel supported by ttu
-is redhat linux supported by ttu
-does windows 10 has ttu support
-does windows10 has ttu support
-does win 10 has ttu support
-does windows has ttu support
-does win has ttu support
-does suse 8 has ttu support
-does windows server 08 has ttu support
-does mac osx has ttu support
-does macosx has ttu support
-does macos has ttu support
-does mac os has ttu support
-is there a teradata office located in kolkata
-is there a teradata office located in hyd
-is there a teradata office located in hyderabad
-is there a teradata office located in delhi
-is there a teradata office located in mumbai
-is there a teradata office located in india
-is there a teradata office located in ind
-what is the location of teradata in india
-what is the location of teradata in hyderabad
-what is the location of teradata in hyd
-what is the location of teradata in ind
-what is the location of teradata in delhi
-what is the location of teradata in mumbai
-what is the location of teradata in kolkata
-what is the location of teradata in bangalore
-is there a teradata office in kolkata
-is there a teradata office in hyd
-is there a teradata office in hyderabad
-is there a teradata office in delhi
-is there a teradata office in mumbai
-is there a teradata office in india
-is there a teradata office in ind
-is there a teradata establishment in kolkata
-is there a teradata establishment in hyd
-is there a teradata establishment in hyderabad
-is there a teradata establishment in delhi
-is there a teradata establishment in mumbai
-is there a teradata establishment in india
-is there a teradata establishment in ind
-where is teradata located in hyderabad
-where is teradata located in hyd
-where is teradata located in kolkata
-where is teradata located in pune
-where is teradata located in mumbai
-where is teradata located in delhi
-where is teradata located in india
-where is teradata office located in ind
-where is teradata office located in hyderabad
-where is teradata office located in hyd
-where is teradata office located in kolkata
-where is teradata office located in pune
-where is teradata office located in mumbai
-where is teradata office located in delhi
-where is teradata office located in india
-where is teradata office located in ind
 issue SOMEKEY-10
 issue SOMEKEY-20
 get issue SOMEKEY-10
@@ -95,3 +18,58 @@ who all are watching the issue SOMEKEY-19
 who are watchers of SOMEKEY-10
 status of the issue SOMEKEY-11
 status of SOMEKEY-11
+track issue SOMEKEY-10 for me
+can you track issue SOMEKEY-10 for me
+will you track issue SOMEKEY-10 for me
+issue SOMEKEY-10 was reported by whom
+to whom is SOMEKEY-10 assigned
+to whom is issue SOMEKEY-14 assigned
+who reported SOMEKEY-17
+is SOMEKEY-19 resolved
+get comments on the issue SOMEKEY-10
+get comments on SOMEKEY-10
+what comments does the issue SOMEKEY-10 has
+what comments does SOMEKEY-10 has
+what are the comments on the issue SOMEKEY-10
+what are the comments on SOMEKEY-10
+comments on the issue SOMEKEY-10
+comments on SOMEKEY-10
+what comments did the issue SOMEKEY-10 get
+what comments did SOMEKEy-10 get
+what comments are on the issue SOMEKEY-10
+what comments are on SOMEKEY-10
+get comments which are on the issue SOMEKEY-18
+what comments does the issue SOMEKEY-10 have
+what comments does SOMEKEY-10 have
+get comments which are on SOMEKEY-18
+what are the comments received on the issue SOMEKEY-10
+what are the comments received on the issue SOMEKEY-10
+what are the comments received SOMEKEY-10
+what are the comments received on the issue SOMEKEY-19
+what are the comments received on the issue SOMEKEY-27
+what are the comments received on the issue SOMEKEY-27
+what are the comments received on the issue SOMEKEY-27
+what are the comments received on the issue SOMEKEY-27
+track issue SOMEKEY-10
+status of the issue SOMEKEY-10
+reporter of the issue SOMEKEY-10
+assignee of the issue SOMEKEY-10
+watchers on the issue SOMEKEY-10
+comments on the issue SOMEKEY-10
+vote count on the issue SOMEKEY-10
+vote count on SOMEKEY-10
+number of votes on the issue SOMEKEY-10
+number of votes on SOMEKEY-10
+count of votes on the issue SOMEKEY-11
+count of votes on SOMEKEY-10
+votes on the issue SOMEKEY-10
+votes on SOMEKEY-10
+how many votes does the issue SOMEKEY-10 has
+how many votes does SOMEKEY-10 has
+how many votes did the issue SOMEKEY-10 get
+how many votes did SOMEKEY-10 get
+get information on issue SOMEKEY-10
+current status of the issue SOMEKEY-10
+get reporter of the issue SOMEKEY-10
+how many votes are there on the issue SOMEKEY-10
+how many votes are there on SOMEKEY-11

@@ -15,6 +15,9 @@ class Bot:
             fp.write("\n")
         return result
 
+    def scores(self):
+        return {'scores': self.bot_lu.get_scores()}
+
     # def bot_reply(self, result):
     #     print("User Intent for the message was: " + result['result']['intent'])
     #     if result['entities'].keys():

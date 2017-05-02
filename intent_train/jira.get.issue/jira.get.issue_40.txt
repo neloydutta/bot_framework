@@ -1,1 +1,0 @@
-is the issue SOMEKEY-17 resolved

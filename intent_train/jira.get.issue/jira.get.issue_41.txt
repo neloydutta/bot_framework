@@ -1,1 +1,0 @@
-what is the status of issue SOMEKEY-10

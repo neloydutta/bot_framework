@@ -1,1 +1,1 @@
-get issue SOMEKEY-10
+issue SOMEKEY-18
