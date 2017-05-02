@@ -73,3 +73,17 @@ current status of the issue SOMEKEY-10
 get reporter of the issue SOMEKEY-10
 how many votes are there on the issue SOMEKEY-10
 how many votes are there on SOMEKEY-11
+tell me about teradata
+is there a teradata establishment in newyork
+does teradata has its office in hyderabad
+why is it named teradata
+significance of name teradata
+is windows server 2000 supported by ttu
+projects list
+who are the watchers on the issue SOMEKEY-10
+who are the watchers on the issue SOMEKEY-10
+vote count on the issue SOMEKEY-10
+number of votes on SOMEKEY-10
+number of votes on SOMEKEY-10
+how many votes does the issue SOMEKEY-10 has
+how many votes does the issue SOMEKEY-10 has

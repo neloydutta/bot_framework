@@ -151,6 +151,20 @@ if __name__ == "__main__":
                         reply("It seems, there are no comments on the issue " + entities['ISU'][0] + "!")
                 else:
                     reply('I\'m afraid, I couldn\'t understand the issue, whose watchers you seek, from the message!')
+            elif user_intent == "jira.issue.votes":
+                if jira is None:
+                    reply(
+                        "JIRA Connection isn't available.\nTo connect to JIRA, Enter following command:\nJIRA/ server-url username password")
+                    continue
+                if "ISU" in entities.keys():
+                    issue = jira.find_issue(entities['ISU'][0])
+                    # print(issue)
+                    if 'message' in issue.keys():
+                        reply(issue['status'])
+                    else:
+                        reply("Issue " + entities['ISU'][0] + " has " + str(issue['fields']['votes']) + " votes!")
+                else:
+                    reply('I\'m afraid, I couldn\'t understand the issue, whose vote-count you seek, from the message!')
             else:
                 print("Okay! This is strange!")
         except:

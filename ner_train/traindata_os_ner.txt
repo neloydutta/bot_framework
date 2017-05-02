@@ -1062,3 +1062,289 @@ SOMEKEY-17 NNP ISU
 is VBZ O
 SOMEKEY-19 NNP O
 resolved VBD O
+
+
+what WP O
+comments NNS O
+does VBZ O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+have VBP O
+
+
+what WP O
+comments NNS O
+does VBZ O
+SOMEKEY-10 NNS ISU
+have VB O
+
+
+get NN O
+comments NNS O
+which WDT O
+are VBP O
+on IN O
+SOMEKEY-18 NNP ISU
+
+
+what WDT O
+are VBP O
+the DT O
+comments NNS O
+received VBN O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+what WDT O
+are VBP O
+the DT O
+comments NNS O
+received VBN O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+what WDT O
+are VBP O
+the DT O
+comments NNS O
+received VBD O
+SOMEKEY-10 JJ ISU
+
+
+what WDT O
+are VBP O
+the DT O
+comments NNS O
+received VBN O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-19 NNP ISU
+
+
+what WDT O
+are VBP O
+the DT O
+comments NNS O
+received VBN O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-27 NNP ISU
+
+
+what WDT O
+are VBP O
+the DT O
+comments NNS O
+received VBN O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-27 NNP ISU
+
+
+what WDT O
+are VBP O
+the DT O
+comments NNS O
+received VBN O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-27 NNP ISU
+
+
+what WDT O
+are VBP O
+the DT O
+comments NNS O
+received VBN O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-27 NNP ISU
+
+
+track JJ O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+status NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+reporter NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+assignee NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+watchers NNS O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+comments NNS O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+vote NN O
+count NN O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+vote NN O
+count NN O
+on IN O
+SOMEKEY-10 NNP ISU
+
+
+number NN O
+of IN O
+votes NNS O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+number NN O
+of IN O
+votes NNS O
+on IN O
+SOMEKEY-10 NNP ISU
+
+
+count NN O
+of IN O
+votes NNS O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-11 NNP ISU
+
+
+count NN O
+of IN O
+votes NNS O
+on IN O
+SOMEKEY-10 NNP ISU
+
+
+votes NNS O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+votes NNS O
+on IN O
+SOMEKEY-10 NNP ISU
+
+
+how WRB O
+many JJ O
+votes NNS O
+does VBZ O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+has VBZ O
+
+
+how WRB O
+many JJ O
+votes NNS O
+does VBZ O
+SOMEKEY-10 NNP ISU
+has VBZ O
+
+
+how WRB O
+many JJ O
+votes NNS O
+did VBD O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+get NN O
+
+
+how WRB O
+many JJ O
+votes NNS O
+did VBD O
+SOMEKEY-10 NNP ISU
+get NN O
+
+
+get VB O
+information NN O
+on IN O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+current JJ O
+status NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+get VB O
+reporter NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+how WRB O
+many JJ O
+votes NNS O
+are VBP O
+there RB O
+on IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+how WRB O
+many JJ O
+votes NNS O
+are VBP O
+there RB O
+on IN O
+SOMEKEY-11 NN ISU

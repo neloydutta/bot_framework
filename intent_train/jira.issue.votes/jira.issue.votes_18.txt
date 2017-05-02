@@ -1,0 +1,1 @@
+how many votes does the issue SOMEKEY-10 has
