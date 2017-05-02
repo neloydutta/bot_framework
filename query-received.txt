@@ -1,0 +1,3 @@
+{"result": {"query_string": "hi", "intent": "bot.greet"}, "entities": {}}
+{"result": {"query_string": "track issue SOMEKEY-10", "intent": "jira.get.issue"}, "entities": {"ISU": ["SOMEKEY-10"]}}
+{"result": {"query_string": "watchers on SOMEKEY-17", "intent": "jira.issue.watchers"}, "entities": {"ISU": ["SOMEKEY-17"]}}

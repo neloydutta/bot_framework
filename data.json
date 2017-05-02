@@ -1,1 +1,30 @@
-{"endcount": {"teradata.about": 61, "teradata.location": 57, "teradata.name.why": 25, "ttu.os.support": 37, "bot.greet": 41, "jira.find.projects": 36, "jira.get.issue": 9, "jira.issue.status": 25, "jira.issue.reporter": 29, "jira.issue.assignee": 27, "jira.issue.watchers": 17, "jira.issue.comments": 24, "jira.issue.votes": 19}, "teradata.about": [], "teradata.location": [], "teradata.name.why": [], "ttu.os.support": [], "bot.greet": [], "jira.find.projects": [], "jira.get.issue": [], "jira.issue.status": [], "jira.issue.reporter": [], "jira.issue.assignee": [], "jira.issue.watchers": [], "jira.issue.comments": [], "jira.issue.votes": []}
+{
+  "endcount": {
+    "teradata.about": 61,
+    "teradata.location": 57,
+    "teradata.name.why": 25,
+    "ttu.os.support": 37,
+    "bot.greet": 41,
+    "jira.find.projects": 36,
+    "jira.get.issue": 9,
+    "jira.issue.status": 25,
+    "jira.issue.reporter": 29,
+    "jira.issue.assignee": 27,
+    "jira.issue.watchers": 17,
+    "jira.issue.comments": 24,
+    "jira.issue.votes": 19
+  },
+  "teradata.about": [],
+  "teradata.location": [],
+  "teradata.name.why": [],
+  "ttu.os.support": [],
+  "bot.greet": [],
+  "jira.find.projects": [],
+  "jira.get.issue": [],
+  "jira.issue.status": [],
+  "jira.issue.reporter": [],
+  "jira.issue.assignee": [],
+  "jira.issue.watchers": [],
+  "jira.issue.comments": [],
+  "jira.issue.votes": []
+}
