@@ -11,6 +11,9 @@ def generate():
     for element in data:
         if element == "endcount":
             endcounts = data[element]
+    for element in data:
+        if element == "endcount":
+            continue
         else:
             class_name = element
             if not os.path.exists(os.path.join(container_path, class_name)):

@@ -1,5 +1,5 @@
 from jira import JIRA
-
+import jira
 # jiras = JIRA('https://jira.atlassian.com')
 #
 # authed_jira = JIRA(server='https://jira.atlassian.com', basic_auth=('neloy.dutta@gmail.com', 'laddu1993'))
@@ -72,6 +72,13 @@ class JIRAClass:
             project_a.append(project_j)
         return project_a
 
+    def my_issues(self):
+        all_proj_issues = self.jira_obj.search_issues('project=SOMEKEY')
+        my_issue_list = []
+        for issue in all_proj_issues:
+            if issue.fields.assignee is not None and issue.fields.assignee.key == self.jira_obj.myself()['key']:
+                my_issue_list.append(self.find_issue(issue.id))
+        return my_issue_list
 
 def issue_json_to_str(issuej):
     return_str = ""
@@ -98,4 +105,5 @@ if __name__ == "__main__":
     # cissue = njira.create_issue(project='SOMEKEY', summary='This is summary!', description='This is description!', issue_name='Bug')
     # print(njira.find_issue('SOMEKEY-10'))
     # print(njira.find_projects())
-    print(issue_json_to_str(njira.find_issue('SOMEKEY-10')))
+    # print(issue_json_to_str(njira.find_issue('SOMEKEY-10')))
+    print(njira.my_issues())

@@ -12,3 +12,97 @@ number of votes on SOMEKEY-10
 number of votes on SOMEKEY-10
 how many votes does the issue SOMEKEY-10 has
 how many votes does the issue SOMEKEY-10 has
+hi
+track issue SOMEKEY-10
+watchers on SOMEKEY-17
+get issue assigned to me
+what all issues are assigned to me
+issue assignee
+issue assignee i'm
+fetch issues which are assigned to me
+issue assignee me
+show all the issues assigned to me
+list all the issues for which i'm assignee
+get all the issues assigned to me
+get all the issues which are assigned to me
+show all issues for which i am the assignee
+get all my issues
+show all my issues
+retrieve all my issues
+all the issues assigned to me
+what all issues are assigned to me
+issue assignee me
+my issues
+show all my issues
+get issues assigned to me
+about teradata
+teradata in Hyderabad
+why is it named teradata
+hello
+hello there!
+thankyou!
+list all projects
+track issue SOMEKEY-10
+status of the issue SOMEKEY-20
+reporter of issue SOMEKEY-20
+assignee of SOMEKEY-10
+issues assigned to me
+assignee of the issue SOMEKEY-10
+list all my issues
+assignee of the issue SOMEKEY-20
+watchers of issue SOMEKEY-10
+what are the comments on the issue SOMEKEY-10
+votes on the issue SOMEKEY-10
+who reported the issue SOMEKEY-10
+who is the reporter of the issue SOMEKEY-10
+who is the reporter of the issue
+assignee of the issue SOMEKEY-10
+assignee of the issue
+how many watchers does issue SOMEKEY-17 has
+how many watchers does issue has
+how many watchers does issue has
+how many votes does the issue has got
+how many votes does the issue SOMEKEY-10 has got
+how many votes does the issue has got
+how many watchers are there for the issue
+how many watchers does issue has
+how many watchers does issue has
+how many watchers does issue has
+SOMEKEY-10
+SOMEKEY-17
+SOMEKEY-11
+SOMEKEY-12
+SOMEKEY-17
+SOMEKEY-10 is the issue
+it is SOMEKEY-10
+who is the assignee of the issue
+list all the issues assigned to me
+list all my issues
+all my issues please
+what are my issues
+what are the issue for which i am the assignee
+what comments does the issue SOMEKEY-10 has
+what comments does the issue has
+all my issues
+y
+who is the reporter of that issue
+who is the reporter of the issue SOMEKEY-10
+what are the comments on the issue
+what are the comments on that issue
+what are the comments on the issue SOMEKEY-10
+assignee of the issue
+who is the assignee
+who is the assignee of that issue
+who is the assignee of the issue
+assignee of the issue SOMEKEY-10
+who is the assignee of that issue
+who is the reporter of that issue
+who is the reporter of the issue SOMEKEY-10
+what about watchers
+how watchers does it have
+how many watchers does that issue have
+who is the assignee
+how many votes did it get
+who is the reporter
+who is the reporter of that issue
+list all projects

@@ -1,294 +1,531 @@
-issue NN
-SOMEKEY-10 NNP
-
-
-issue NN
-SOMEKEY-20 NNP
-
-
-get VB
-issue NN
-SOMEKEY-10 NNP
-
-
-find VB
-issue NN
-SOMEKEY-17 NNP
-
-
-retrieve JJ
-issue NN
-SOMEKEY-10 NNP
-
-
-what WP
-is VBZ
-status NN
-of IN
-SOMEKEY-10 NNP
-
-
-what WP
-is VBZ
-the DT
-status NN
-of IN
-the DT
-issue NN
-SOMEKEY-19 NNP
-
-
 tell VB
 me PRP
 about IN
-issue NN
-SOMEKEY-20 NNP
+teradata NN
 
 
-who WP
 is VBZ
-the DT
-reporter NN
+there EX
+a DT
+teradata NN
+establishment NN
+in IN
+newyork NN
+
+
+does VBZ
+teradata NN
+has VBZ
+its PRP$
+office NN
+in IN
+hyderabad NN
+
+
+why WRB
+is VBZ
+it PRP
+named VBD
+teradata NN
+
+
+significance NN
 of IN
-issue NN
-SOMEKEY-11 NNP
+name NN
+teradata NN
 
 
-who WP
-reported VBD
-SOMEKEY-10 NNP
-
-
-who WP
 is VBZ
-the DT
-reporter NN
-of IN
-SOMEKEY-13 NNP
+windows NNS
+server RB
+2000 CD
+supported VBN
+by IN
+ttu NN
 
 
-who WP
-reported VBD
-the DT
-issue NN
-SOMEKEY-22 NNP
-
-
-who WP
-is VBZ
-the DT
-assignee NN
-of IN
-issue NN
-SOMEKEY-11 NNP
-
-
-who WP
-is VBZ
-the DT
-assignee NN
-of IN
-SOMEKEY-13 NNP
-
-
-to TO
-whom WP
-issue VB
-SOMEKEY-10 NNP
-is VBZ
-assigned VBN
-
-
-to TO
-whom WP
-SOMEKEY-13 NNP
-is VBZ
-assigned VBN
-
-
-who WP
-all DT
-are VBP
-watching VBG
-the DT
-issue NN
-SOMEKEY-19 NNP
+projects NNS
+list NN
 
 
 who WP
 are VBP
+the DT
 watchers NNS
-of IN
+on IN
+the DT
+issue NN
 SOMEKEY-10 NNP
 
 
-status NN
-of IN
+who WP
+are VBP
+the DT
+watchers NNS
+on IN
 the DT
 issue NN
-SOMEKEY-11 NNP
+SOMEKEY-10 NNP
 
 
-status NN
+vote NN
+count NN
+on IN
+the DT
+issue NN
+SOMEKEY-10 NNP
+
+
+number NN
 of IN
-SOMEKEY-11 NNP
+votes NNS
+on IN
+SOMEKEY-10 NNP
+
+
+number NN
+of IN
+votes NNS
+on IN
+SOMEKEY-10 NNP
+
+
+how WRB
+many JJ
+votes NNS
+does VBZ
+the DT
+issue NN
+SOMEKEY-10 NNP
+has VBZ
+
+
+how WRB
+many JJ
+votes NNS
+does VBZ
+the DT
+issue NN
+SOMEKEY-10 NNP
+has VBZ
+
+
+hi NN
 
 
 track JJ
 issue NN
 SOMEKEY-10 NNP
-for IN
+
+
+watchers NNS
+on IN
+SOMEKEY-17 NNP
+
+
+get VB
+issue NN
+assigned VBN
+to TO
 me PRP
 
 
-can MD
-you PRP
-track VB
-issue VB
-SOMEKEY-10 NNP
-for IN
-me PRP
-
-
-will MD
-you PRP
-track VB
-issue VB
-SOMEKEY-10 NNP
-for IN
+what WP
+all DT
+issues NNS
+are VBP
+assigned VBN
+to TO
 me PRP
 
 
 issue NN
-SOMEKEY-10 NNP
-was VBD
-reported VBN
-by IN
-whom WP
+assignee NN
 
 
-to TO
-whom WP
-is VBZ
-SOMEKEY-10 NNP
-assigned JJ
-
-
-to TO
-whom WP
-is VBZ
 issue NN
-SOMEKEY-14 NN
-assigned VBD
+assignee NN
+i NN
+'m VBP
+
+
+fetch NN
+issues NNS
+which WDT
+are VBP
+assigned VBN
+to TO
+me PRP
+
+
+issue NN
+assignee IN
+me PRP
+
+
+show NN
+all PDT
+the DT
+issues NNS
+assigned VBN
+to TO
+me PRP
+
+
+list NN
+all PDT
+the DT
+issues NNS
+for IN
+which WDT
+i JJ
+'m VBP
+assignee JJ
+
+
+get VB
+all PDT
+the DT
+issues NNS
+assigned VBN
+to TO
+me PRP
+
+
+get VB
+all PDT
+the DT
+issues NNS
+which WDT
+are VBP
+assigned VBN
+to TO
+me PRP
+
+
+show VB
+all DT
+issues NNS
+for IN
+which WDT
+i NN
+am VBP
+the DT
+assignee NN
+
+
+get VB
+all DT
+my PRP$
+issues NNS
+
+
+show NN
+all DT
+my PRP$
+issues NNS
+
+
+retrieve VB
+all DT
+my PRP$
+issues NNS
+
+
+all PDT
+the DT
+issues NNS
+assigned VBN
+to TO
+me PRP
+
+
+what WP
+all DT
+issues NNS
+are VBP
+assigned VBN
+to TO
+me PRP
+
+
+issue NN
+assignee IN
+me PRP
+
+
+my PRP$
+issues NNS
+
+
+show NN
+all DT
+my PRP$
+issues NNS
+
+
+get VB
+issues NNS
+assigned VBN
+to TO
+me PRP
+
+
+about IN
+teradata NNS
+
+
+teradata NNS
+in IN
+Hyderabad NNP
+
+
+why WRB
+is VBZ
+it PRP
+named VBD
+teradata NN
+
+
+hello NN
+
+
+hello NN
+there RB
+! .
+
+
+thankyou NN
+! .
+
+
+list NN
+all DT
+projects NNS
+
+
+track JJ
+issue NN
+SOMEKEY-10 NNP
+
+
+status NN
+of IN
+the DT
+issue NN
+SOMEKEY-20 NNP
+
+
+reporter NN
+of IN
+issue NN
+SOMEKEY-20 NNP
+
+
+assignee NN
+of IN
+SOMEKEY-10 NNP
+
+
+issues NNS
+assigned VBN
+to TO
+me PRP
+
+
+assignee NN
+of IN
+the DT
+issue NN
+SOMEKEY-10 NNP
+
+
+list NN
+all DT
+my PRP$
+issues NNS
+
+
+assignee NN
+of IN
+the DT
+issue NN
+SOMEKEY-20 NNP
+
+
+watchers NNS
+of IN
+issue NN
+SOMEKEY-10 NNP
+
+
+what WDT
+are VBP
+the DT
+comments NNS
+on IN
+the DT
+issue NN
+SOMEKEY-10 NNP
+
+
+votes NNS
+on IN
+the DT
+issue NN
+SOMEKEY-10 NNP
 
 
 who WP
 reported VBD
-SOMEKEY-17 NNP
+the DT
+issue NN
+SOMEKEY-10 NNP
 
 
+who WP
 is VBZ
-SOMEKEY-19 NNP
-resolved VBD
-
-
-get NN
-comments NNS
-on IN
+the DT
+reporter NN
+of IN
 the DT
 issue NN
 SOMEKEY-10 NNP
 
 
-get NN
-comments NNS
-on IN
+who WP
+is VBZ
+the DT
+reporter NN
+of IN
+the DT
+issue NN
+
+
+assignee NN
+of IN
+the DT
+issue NN
 SOMEKEY-10 NNP
 
 
-what WP
-comments NNS
+assignee NN
+of IN
+the DT
+issue NN
+
+
+how WRB
+many JJ
+watchers NNS
+does VBZ
+issue VB
+SOMEKEY-17 NNP
+has VBZ
+
+
+how WRB
+many JJ
+watchers NNS
+does VBZ
+issue NN
+has VBZ
+
+
+how WRB
+many JJ
+watchers NNS
+does VBZ
+issue NN
+has VBZ
+
+
+how WRB
+many JJ
+votes NNS
+does VBZ
+the DT
+issue NN
+has VBZ
+got VBD
+
+
+how WRB
+many JJ
+votes NNS
 does VBZ
 the DT
 issue NN
 SOMEKEY-10 NNP
 has VBZ
+got VBD
 
 
-what WP
-comments NNS
+how WRB
+many JJ
+votes NNS
 does VBZ
-SOMEKEY-10 NNP
+the DT
+issue NN
+has VBZ
+got VBD
+
+
+how WRB
+many JJ
+watchers NNS
+are VBP
+there RB
+for IN
+the DT
+issue NN
+
+
+how WRB
+many JJ
+watchers NNS
+does VBZ
+issue NN
 has VBZ
 
 
-what WDT
-are VBP
-the DT
-comments NNS
-on IN
-the DT
+how WRB
+many JJ
+watchers NNS
+does VBZ
 issue NN
-SOMEKEY-10 NNP
+has VBZ
 
 
-what WDT
-are VBP
-the DT
-comments NNS
-on IN
-SOMEKEY-10 NNP
-
-
-comments NNS
-on IN
-the DT
+how WRB
+many JJ
+watchers NNS
+does VBZ
 issue NN
-SOMEKEY-10 NNP
+has VBZ
 
 
-comments NNS
-on IN
-SOMEKEY-10 NNP
+SOMEKEY-10 JJ ISU
 
 
-what WP
-comments NNS
-did VBD
-the DT
-issue NN
-SOMEKEY-10 NNP
-get NN
+SOMEKEY-17 NN ISU
 
 
-what WP
-comments NNS
-did VBD
-SOMEKEy-10 NNP
-get NN
+SOMEKEY-11 NN ISU
 
 
-what WP
-comments NNS
-are VBP
-on IN
-the DT
-issue NN
-SOMEKEY-10 NNP
+SOMEKEY-12 NN ISU
 
 
-what WP
-comments NNS
-are VBP
-on IN
-SOMEKEY-10 NNP
+SOMEKEY-17 NN ISU
 
 
-get NN
-comments NNS
-which WDT
-are VBP
-on IN
-the DT
-issue NN
-SOMEKEY-18 NNP
+SOMEKEY-10 NNP ISU
+is VBZ O
+the DT O
+issue NN O
+
+
+it PRP O
+is VBZ O
+SOMEKEY-10 JJ ISU
