@@ -131,3 +131,10 @@ how votes are available for the issue SOMEKEY-17
 about teradata
 who is the assignee of the issue SOMEKEY-17
 who is the assignee of the issue SOMEKEY-10
+who are watching the issue SOMEKEY-10
+who are the watchers on the issue SOMEKEY-10
+who are the watchers of the issue SOMEKEY-10
+assignee of the issue ANOTHERKEY-10
+assignee of the issue ANOTHERKEY-10
+who reporter of that issue
+assignee of the issue SOMEKEY-10
