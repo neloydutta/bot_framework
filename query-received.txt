@@ -1,0 +1,1 @@
+{"entities": {"ISU": ["ANOTHERKEY-10"]}, "result": {"intent": "jira.issue.assignee", "query_string": "assignee of the issue ANOTHERKEY-10"}}

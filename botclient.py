@@ -12,21 +12,21 @@ bottkn = bottoken.bottoken
 bot_name = 'batbot'
 bot_id = ''
 sc_bot = SlackClient(bottkn)
-#
-# users_call = sc_bot.api_call('users.list')
-# if users_call['ok']:
-#     for user in users_call['members']:
-#         if user['name'] == bot_name:
-#             bot_id = user['id']
-#             # print('BotID: ' + bot_id)
-# else:
-#     print("Slack API connection error!")
-#     exit(1)
+
+users_call = sc_bot.api_call('users.list')
+if users_call['ok']:
+    for user in users_call['members']:
+        if user['name'] == bot_name:
+            bot_id = user['id']
+            # print('BotID: ' + bot_id)
+else:
+    print("Slack API connection error!")
+    exit(1)
 
 
 def reply(rchannel, message):
-    print("bot: " + message)
-    # sc_bot.rtm_send_message(rchannel, message)
+    # print("bot: " + message)
+    sc_bot.rtm_send_message(rchannel, message)
 
 
 def read_from_slack():
@@ -112,7 +112,7 @@ def processing_reply(user_ip, user_intent, entities, channel):
         if "ISU" in entities.keys():
             issue = jira.find_issue(entities['ISU'][0])
             if 'message' in issue.keys():
-                reply(channel, issue['status'])
+                reply(channel, issue['message'])
             else:
                 reply(channel, "Here's the status I found for the issue, " + entities['ISU'][0] + ":")
                 reply(channel, issue['fields']['status'])
@@ -135,7 +135,7 @@ def processing_reply(user_ip, user_intent, entities, channel):
             issue = jira.find_issue(entities['ISU'][0])
             # print(issue)
             if 'message' in issue.keys():
-                reply(channel, issue['status'])
+                reply(channel, issue['message'])
             else:
                 # reply(channel, "Here's the reporter of the issue, " + entities['ISU'][0] + ":")
                 reply(channel, issue['fields']['reporter'] + " reported the issue " + entities['ISU'][0])
@@ -177,7 +177,7 @@ def processing_reply(user_ip, user_intent, entities, channel):
                 issue = jira.find_issue(entities['ISU'][0])
                 # print(issue)
                 if 'message' in issue.keys():
-                    reply(channel, issue['status'])
+                    reply(channel, issue['message'])
                 else:
                     # reply(channel, "Here's the reporter of the issue, " + entities['ISU'][0] + ":")
                     reply(channel, issue['fields']['assignee'] + " is the assignee of the issue " + entities['ISU'][0])
@@ -200,7 +200,7 @@ def processing_reply(user_ip, user_intent, entities, channel):
             issue = jira.find_issue(entities['ISU'][0])
             # print(issue)
             if 'message' in issue.keys():
-                reply(channel, issue['status'])
+                reply(channel, issue['message'])
             elif len(issue['watchers']) > 0:
                 reply(channel, "Here are the watchers of the issue, " + entities['ISU'][0] + ":")
                 reply(channel, ", ".join(issue['watchers']))
@@ -225,7 +225,7 @@ def processing_reply(user_ip, user_intent, entities, channel):
             issue = jira.find_issue(entities['ISU'][0])
             # print(issue)
             if 'message' in issue.keys():
-                reply(channel, issue['status'])
+                reply(channel, issue['message'])
             elif len(issue['fields']['comments']) > 0:
                 reply(channel, "Here are the comments on the issue, " + entities['ISU'][0] + ":")
                 reply(channel, ", ".join(issue['fields']['comments']))
@@ -251,7 +251,7 @@ def processing_reply(user_ip, user_intent, entities, channel):
             issue = jira.find_issue(entities['ISU'][0])
             # print(issue)
             if 'message' in issue.keys():
-                reply(channel, issue['status'])
+                reply(channel, issue['message'])
             else:
                 reply(channel, "Issue " + entities['ISU'][0] + " has " + str(issue['fields']['votes']) + " votes!")
             context.set_context(name="jira", intent="jira.issue.votes", value=entities)
@@ -296,12 +296,12 @@ if __name__ == "__main__":
         exit(1)
     while True:
         # try:
-        user_ip = str(input("you: "))
+        # user_ip = str(input("you: "))
         channel = ""
-        # channel, user_ip = read_from_slack()
-        # if channel is None or user_ip is None:
-        #     time.sleep(1)
-        #     continue
+        channel, user_ip = read_from_slack()
+        if channel is None or user_ip is None:
+            time.sleep(1)
+            continue
         if context.handle_flag is True:
             ret_list = context.handle_context(user_ip, bot_client)
             if len(ret_list) == 2:
