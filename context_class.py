@@ -27,7 +27,7 @@ class ContextClass:
         self.context_value = None
         self.context_intent = None
         self.handle_flag = False
-        if "ISU" in entity.keys():
+        if "ISU" in entity.keys() or "OS":
             # print("ISU")
             return [intent, entity]
         else:

@@ -1,0 +1,519 @@
+{
+  "Windows 7": [
+    "windows7",
+    "windows-7",
+    "win7",
+    "win 7",
+    "windows 7"
+  ],
+  "Windows 8": [
+    "windows8",
+    "windows-8",
+    "win8",
+    "win 8",
+    "windows 8"
+  ],
+  "Windows 10": [
+    "windows10",
+    "windows-10",
+    "win10",
+    "win 10",
+    "windows 10"
+  ],
+  "Windows 2012": [
+    "windows2012",
+    "windows-2012",
+    "win2012",
+    "win 2012",
+    "windows 2012",
+    "windows12",
+    "windows-12",
+    "win12",
+    "win 12",
+    "windows 12",
+    "windowsserver2012",
+    "windows server 2012",
+    "win server 2012",
+    "winserver2012",
+    "server 2012",
+    "server2012",
+    "windows server 2012"
+  ],
+  "Windows Server 2016": [
+    "windows2016",
+    "windows-2016",
+    "win2016",
+    "win 2016",
+    "windows 2016",
+    "windows16",
+    "windows-16",
+    "win16",
+    "win 16",
+    "windows 16",
+    "windowsserver2016",
+    "win server 2016",
+    "winserver2016",
+    "server 2016",
+    "server2016",
+    "windows server 2016"
+  ],
+  "Windows Server 2008": [
+    "windows2008",
+    "windows-2008",
+    "win2008",
+    "win 2008",
+    "windows 2008",
+    "windows08",
+    "windows-08",
+    "win08",
+    "win 08",
+    "windows 08",
+    "windowsserver2008",
+    "win server 2008",
+    "winserver2008",
+    "server 2008",
+    "server2008",
+    "windows server 2008"
+  ],
+  "Windows Server 2008 R2": [
+    "windows2008r2",
+    "windows2008 r2",
+    "windows-2008r2",
+    "windows-2008-r2",
+    "windows-2008 r2",
+    "win2008r2",
+    "win2008 r2",
+    "windows 2008r2",
+    "windows 2008 r2",
+    "windows08r2",
+    "windows08 r2",
+    "windows-08r2",
+    "windows-08 r2",
+    "win08r2",
+    "win08 r2",
+    "windows 08r2",
+    "windows 08 r2",
+    "windowsserver2008r2",
+    "windowsserver2008 r2",
+    "win server 2008r2",
+    "win server 2008 r2",
+    "winserver2008r2",
+    "winserver2008 r2",
+    "server 2008r2",
+    "server 2008 r2",
+    "server2008r2",
+    "server2008 r2",
+    "windows server 2008 r2"
+  ],
+  "Windows Vista": [
+    "windowsvista",
+    "vista",
+    "winvista",
+    "win vista",
+    "windows vista"
+  ],
+  "Windows Server 2003": [
+    "windows2003",
+    "windows-2003",
+    "win2003",
+    "win 2003",
+    "windows 2003",
+    "windows03",
+    "windows-03",
+    "win03",
+    "win 03",
+    "windows 03",
+    "windowsserver2003",
+    "win server 2003",
+    "winserver2003",
+    "server 2003",
+    "server2003",
+    "windows server 2003"
+  ],
+  "Windows Server 2003 SP1": [
+    "windows2003sp1",
+    "windows2003 sp1",
+    "windows-2003sp1",
+    "windows-2003-sp1",
+    "windows-2003 sp1",
+    "win2003sp1",
+    "win2003 sp1",
+    "windows 2003sp1",
+    "windows 2003 sp1",
+    "windows03sp1",
+    "windows03 sp1",
+    "windows-03sp1",
+    "windows-03 sp1",
+    "win03sp1",
+    "win03 sp1",
+    "windows 03sp1",
+    "windows 03 sp1",
+    "windowsserver2003sp1",
+    "windowsserver2003 sp1",
+    "win server 2003sp1",
+    "win server 2003 sp1",
+    "winserver2003sp1",
+    "winserver2003 sp1",
+    "server 2003sp1",
+    "server 2003 sp1",
+    "server2003sp1",
+    "server2003 sp1",
+    "windows server 2003 sp1"
+  ],
+  "RedHat 7": [
+    "redhat7",
+    "red hat7",
+    "red hat 7",
+    "rhel7",
+    "rhel 7",
+    "redhat 7"
+  ],
+  "RedHat 6": [
+    "redhat6",
+    "red hat6",
+    "red hat 6",
+    "rhel6",
+    "rhel 6",
+    "redhat 6"
+  ],
+  "RedHat 5": [
+    "redhat5",
+    "red hat5",
+    "red hat 5",
+    "rhel5",
+    "rhel 5",
+    "redhat 5"
+  ],
+  "RedHat 4": [
+    "redhat4",
+    "red hat4",
+    "red hat 4",
+    "rhel4",
+    "rhel 4",
+    "redhat 4"
+  ],
+  "RedHat 3": [
+    "redhat3",
+    "red hat3",
+    "red hat 3",
+    "rhel3",
+    "rhel 3",
+    "redhat 3"
+  ],
+  "RedHat 2.1": [
+    "redhat2.1",
+    "red hat2.1",
+    "red hat 2.1",
+    "rhel2.1",
+    "rhel 2.1",
+    "redhat 2.1"
+  ],
+  "RedHat": [
+    "red hat"
+  ],
+  "SUSE 8": [
+    "SUSE linux 8",
+    "SUSE8",
+    "SUSElinux8",
+    "SUSElinux 8",
+    "suse 8"
+  ],
+  "SUSE 9": [
+    "SUSE linux 9",
+    "SUSE9",
+    "SUSElinux9",
+    "SUSElinux 9",
+    "suse 9"
+  ],
+  "SUSE 10": [
+    "SUSE linux 10",
+    "SUSE10",
+    "SUSElinux10",
+    "SUSElinux 10",
+    "suse 10"
+  ],
+  "SUSE 11": [
+    "SUSE linux 11",
+    "SUSE11",
+    "SUSElinux11",
+    "SUSElinux 11",
+    "suse 11"
+  ],
+  "SUSE 12": [
+    "SUSE linux 12",
+    "SUSE12",
+    "SUSElinux12",
+    "SUSElinux 12",
+    "suse 12"
+  ],
+  "OEL 7": [
+    "OEL7",
+    "oel 7"
+  ],
+  "OEL 6": [
+    "OEL6",
+    "oel 6"
+  ],
+  "OEL 5": [
+    "OEL5",
+    "oel 5"
+  ],
+  "OEL 4": [
+    "OEL4",
+    "oel 4"
+  ],
+  "Centos 6": [
+    "centos6",
+    "cent os 6",
+    "cent os6",
+    "centos 6"
+  ],
+  "Centos 5": [
+    "centos5",
+    "cent os 5",
+    "cent os5",
+    "centos 5"
+  ],
+  "Centos 4": [
+    "centos4",
+    "cent os 4",
+    "cent os4",
+    "centos 4"
+  ],
+  "Solaris 11": [
+    "solaris11",
+    "solaris 11"
+  ],
+  "Solaris 10": [
+    "solaris10",
+    "solaris 10"
+  ],
+  "Solaris 9": [
+    "solaris9",
+    "solaris 9"
+  ],
+  "Solaris 8": [
+    "solaris8",
+    "solaris 8"
+  ],
+  "Solaris 7": [
+    "solaris7",
+    "solaris 7"
+  ],
+  "Solaris 2.6": [
+    "solaris2.6",
+    "solaris 2.6"
+  ],
+  "AIX 7.2": [
+    "aix7.2",
+    "aix 7.2"
+  ],
+  "AIX 7.1": [
+    "aix7.1",
+    "aix 7.1"
+  ],
+  "AIX 6.1": [
+    "aix6.1",
+    "aix 6.1"
+  ],
+  "AIX 5.3": [
+    "aix5.3",
+    "aix 5.3"
+  ],
+  "AIX 5.2": [
+    "aix5.2",
+    "aix 5.2"
+  ],
+  "AIX 5.1": [
+    "aix5.1",
+    "aix 5.1"
+  ],
+  "zOS 1.1": [
+    "zos1.1",
+    "z os1.1",
+    "z os 1.1",
+    "zos 1.1"
+  ],
+  "zOS 1.2": [
+    "zos1.2",
+    "z os1.2",
+    "z os 1.2",
+    "zos 1.2"
+  ],
+  "zOS 1.3": [
+    "zos1.3",
+    "z os1.3",
+    "z os 1.3",
+    "zos 1.3"
+  ],
+  "zOS 1.4": [
+    "zos1.4",
+    "z os1.4",
+    "z os 1.4",
+    "zos 1.4"
+  ],
+  "zOS 1.5": [
+    "zos1.5",
+    "z os1.5",
+    "z os 1.5",
+    "zos 1.5"
+  ],
+  "zOS 1.6": [
+    "zos1.6",
+    "z os1.6",
+    "z os 1.6",
+    "zos 1.6"
+  ],
+  "zOS 1.7": [
+    "zos1.7",
+    "z os1.7",
+    "z os 1.7",
+    "zos 1.7"
+  ],
+  "zOS 1.8": [
+    "zos1.8",
+    "z os1.8",
+    "z os 1.8",
+    "zos 1.8"
+  ],
+  "zOS 1.9": [
+    "zos1.9",
+    "z os1.9",
+    "z os 1.9",
+    "zos 1.9"
+  ],
+  "zOS 1.10": [
+    "zos1.10",
+    "z os1.10",
+    "z os 1.10",
+    "zos 1.10"
+  ],
+  "zOS 1.11": [
+    "zos1.11",
+    "z os1.11",
+    "z os 1.11",
+    "zos 1.11"
+  ],
+  "zOS 1.12": [
+    "zos1.12",
+    "z os1.12",
+    "z os 1.12",
+    "zos 1.12"
+  ],
+  "zOS 1.13": [
+    "zos1.13",
+    "z os1.13",
+    "z os 1.13",
+    "zos 1.13"
+  ],
+  "zVM 5.3": [
+    "zvm5.3",
+    "zvm 5.3"
+  ],
+  "zVM 5.2": [
+    "zvm5.2",
+    "zvm 5.2"
+  ],
+  "zVM 5.1": [
+    "zvm5.1",
+    "zvm 5.1"
+  ],
+  "zVM 4.4": [
+    "zvm4.4",
+    "zvm 4.4"
+  ],
+  "zVM 4.3": [
+    "zvm4.3",
+    "zvm 4.3"
+  ],
+  "zVM 4.2": [
+    "zvm4.2",
+    "zvm 4.2"
+  ],
+  "zVM 4.1": [
+    "zvm4.1",
+    "zvm 4.1"
+  ],
+  "zVM 3.1": [
+    "zvm3.1",
+    "zvm 3.1"
+  ],
+  "Mac OS X 10.11 - El Capitan": [
+    "mac os x 10.11",
+    "mac os x El Capitan",
+    "mac os x ElCapitan",
+    "macos x El Capitan",
+    "macos x ElCapitan",
+    "macos x 10.11",
+    "macosx El Capitan",
+    "macosx ElCapitan",
+    "macosxElCapitan",
+    "macosx 10.11",
+    "macosx10.11"
+  ],
+  "Mac OS X 10.10 - Yosemite": [
+    "mac os x 10.10",
+    "mac os x Yosemite",
+    "macos x Yosemite",
+    "macos x 10.10",
+    "macosx Yosemite",
+    "macosxYosemite",
+    "macosx 10.10",
+    "macosx10.10"
+  ],
+  "Mac OS X 10.9 - Mavericks": [
+    "mac os x 10.9",
+    "mac os x Mavericks",
+    "macos x Mavericks",
+    "macos x 10.9",
+    "macosx Mavericks",
+    "macosxMavericks",
+    "macosx 10.9",
+    "macosx10.9"
+  ],
+  "Mac OS X 10.8 - Mountain Lion": [
+    "mac os x 10.8",
+    "mac os x MountainLion",
+    "mac os x Mountain Lion",
+    "macos x MountainLion",
+    "macos x Mountain Lion",
+    "macos x 10.8",
+    "macosx MountainLion",
+    "macosxMountainLion",
+    "macosx Mountain Lion",
+    "macosx 10.8",
+    "macosx10.8"
+  ],
+  "Mac OS X 10.7 - Lion": [
+    "mac os x 10.7",
+    "mac os x Lion",
+    "macos x Lion",
+    "macos x 10.7",
+    "macosx Lion",
+    "macosxLion",
+    "macosx 10.7",
+    "macosx10.7"
+  ],
+  "Mac OS X 10.4 - Tiger": [
+    "mac os x 10.4",
+    "mac os x Tiger",
+    "macos x Tiger",
+    "macos x 10.4",
+    "macosx Tiger",
+    "macosxTiger",
+    "macosx 10.4",
+    "macosx10.4"
+  ],
+  "Mac OS X 10": [
+    "mac os x 10",
+    "macos x 10",
+    "macosx 10",
+    "macosx10"
+  ],
+  "Mac OS X": [
+    "mac os x",
+    "macos x",
+    "macosx",
+    "macosx"
+  ]
+}

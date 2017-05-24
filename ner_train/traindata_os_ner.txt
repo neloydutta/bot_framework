@@ -1374,3 +1374,480 @@ issue NN O
 it PRP O
 is VBZ O
 SOMEKEY-10 JJ ISU
+
+
+how WRB O
+many JJ O
+votes NNS O
+does VBZ O
+that IN O
+issue NN O
+has VBZ O
+
+
+who WP O
+reported VBD O
+the DT O
+issue NN O
+
+
+where WRB O
+is VBZ O
+teradata VBN O
+in IN O
+hyderabad NN LOC
+? . O
+
+
+does VBZ O
+ttu VB O
+supports NNS O
+windows VBZ OS
+10 CD OS
+
+
+who WP O
+is VBZ O
+the DT O
+assignee NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-17 NNP ISU
+
+
+who WP O
+is VBZ O
+the DT O
+assignee NN O
+of IN O
+that DT O
+issue NN O
+
+
+who WP O
+is VBZ O
+the DT O
+assignee NN O
+of IN O
+that DT O
+issue NN O
+
+
+hi NN O
+
+
+list NN O
+my PRP$ O
+projects NNS O
+
+
+what WP O
+is VBZ O
+status NN O
+of IN O
+that DT O
+issue NN O
+
+
+what WP O
+is VBZ O
+status NN O
+of IN O
+that DT O
+issue NN O
+
+
+what WP O
+is VBZ O
+status NN O
+of IN O
+that DT O
+issue NN O
+
+
+what WP O
+comments NNS O
+are VBP O
+available JJ O
+on IN O
+SOMEKEY-10 NNP ISU
+
+
+why WRB O
+is VBZ O
+it PRP O
+named VBD O
+teradata NN O
+
+
+hi NN O
+
+
+hello NN O
+
+
+do VB O
+you PRP O
+know VB O
+your PRP$ O
+purpose NN O
+
+
+what WP O
+can MD O
+you PRP O
+do VB O
+for IN O
+me PRP O
+
+
+hey NN O
+there EX O
+
+
+hello NN O
+there EX O
+
+
+hey NN O
+
+
+sup NN O
+
+
+ssup NN O
+
+
+hola NN O
+
+
+hello NN O
+
+
+hllo NN O
+
+
+hello NN O
+
+
+hello NN O
+
+
+how WRB O
+are VBP O
+you PRP O
+! . O
+
+
+can MD O
+you PRP O
+help VB O
+me PRP O
+out RP O
+
+
+hi NN O
+
+
+bye NN O
+
+
+ciao NN O
+
+
+what WP O
+is VBZ O
+up RP O
+with IN O
+you PRP O
+
+
+sup JJ O
+thing NN O
+
+
+hi NN O
+
+
+hello NN O
+
+
+hello NN O
+there RB O
+! . O
+
+
+hi NN O
+
+
+hi NN O
+
+
+what WDT O
+are VBP O
+your PRP$ O
+capabalities NNS O
+
+
+hi NN O
+
+
+who WP O
+are VBP O
+you PRP O
+
+
+what WP O
+are VBP O
+you PRP O
+capable JJ O
+of IN O
+
+
+how WRB O
+can MD O
+you PRP O
+help VB O
+me PRP O
+
+
+what WP O
+is VBZ O
+your PRP$ O
+purpose NN O
+
+
+y NN O
+
+
+tell VB O
+me PRP O
+something NN O
+
+
+what WP O
+are VBP O
+you PRP O
+doing VBG O
+
+
+what WP O
+is VBZ O
+up RP O
+
+
+what WP O
+is VBZ O
+going VBG O
+on IN O
+
+
+thankyou NN O
+! . O
+
+
+is VBZ O
+this DT O
+for IN O
+real JJ O
+
+
+this DT O
+is VBZ O
+random JJ O
+for IN O
+nothing NN O
+
+
+i NNS O
+do VBP O
+n't RB O
+know VB O
+what WP O
+you PRP O
+are VBP O
+saying VBG O
+
+
+cool NN O
+
+
+hi NN O
+
+
+what WP O
+can MD O
+you PRP O
+do VB O
+then RB O
+
+
+what WDT O
+are VBP O
+your PRP O
+capabilities NNS O
+
+
+hello JJ O
+thing NN O
+
+
+do VB O
+you PRP O
+see VB O
+movies NNS O
+
+
+do VB O
+you PRP O
+know VB O
+ironman NN O
+
+
+do VB O
+you PRP O
+watch VB O
+movies NNS O
+
+
+tell VB O
+me PRP O
+about IN O
+teradata NN O
+
+
+are VBP O
+you PRP O
+a DT O
+human JJ O
+
+
+what WP O
+can MD O
+you PRP O
+do VB O
+
+
+what WP O
+are VBP O
+you PRP O
+capable JJ O
+of IN O
+
+
+does VBZ O
+ttu VB O
+supports NNS O
+windows10 VB OS
+
+
+does VBZ O
+ttu VB O
+supports NNS O
+windows VBZ OS
+10 CD OS
+
+
+does VBZ O
+ttu VB O
+supports NNS O
+windows VBZ OS
+10 CD OS
+
+
+does VBZ O
+ttu VB O
+supports NNS O
+windows10 VB OS
+
+
+who WP O
+is VBZ O
+the DT O
+assignee NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP OS
+
+
+is VBZ O
+there EX O
+ttu JJ O
+version NN O
+supported VBD O
+on IN O
+windows NNS OS
+server NN OS
+2010 CD OS
+
+
+is VBZ O
+there EX O
+ttu JJ O
+version NN O
+supported VBD O
+on IN O
+windows NNS OS
+server NN OS
+2010 CD OS
+
+
+who WP O
+is VBZ O
+the DT O
+assignee NN O
+of IN O
+that DT O
+issue NN O
+
+
+is VBZ O
+there EX O
+ttu JJ O
+version NN O
+supported VBD O
+on IN O
+windows NNS OS
+server NN OS
+2010 CD OS
+
+
+is VBZ O
+there EX O
+ttu JJ O
+version NN O
+supported VBD O
+on IN O
+windows NNS OS
+server NN OS
+
+
+is VBZ O
+there EX O
+ttu JJ O
+version NN O
+supported VBD O
+on IN O
+windows NNS OS
+10 CD OS
+
+
+is VBZ O
+there EX O
+ttu JJ O
+version NN O
+supported VBD O
+on IN O
+windows NNS OS
+server NN OS
+
+
+ttu JJ O
+support NN O
+windows VBZ OS
+10 CD OS
+
+
+y NN O

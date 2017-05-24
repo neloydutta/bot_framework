@@ -146,7 +146,7 @@ def ner_features(tokenst, index, history):
 
 class ScikitLearnChunker(ChunkParserI):
     @classmethod
-    def to_dataset(cls, parsed_sentences, feature_detector):
+    def to_dataset(self, parsed_sentences, feature_detector):
         """
         Transform a list of tagged sentences into a scikit-learn compatible POS dataset
         :param parsed_sentences:
@@ -169,14 +169,14 @@ class ScikitLearnChunker(ChunkParserI):
         return X, y
 
     @classmethod
-    def get_minibatch(cls, parsed_sentences, feature_detector, batch_size=50):
+    def get_minibatch(self, parsed_sentences, feature_detector, batch_size=50):
         batch = list(itertools.islice(parsed_sentences, batch_size))
-        X, y = cls.to_dataset(batch, feature_detector)
+        X, y = self.to_dataset(batch, feature_detector)
         return X, y
 
     @classmethod
-    def train(cls, parsed_sentences, feature_detector, all_classes, **kwargs):
-        X, y = cls.get_minibatch(parsed_sentences, feature_detector, kwargs.get('batch_size', 50))
+    def train(self, parsed_sentences, feature_detector, all_classes, **kwargs):
+        X, y = self.get_minibatch(parsed_sentences, feature_detector, kwargs.get('batch_size', 50))
         vectorizer = DictVectorizer(sparse=False)
         vectorizer.fit(X)
 
@@ -185,25 +185,20 @@ class ScikitLearnChunker(ChunkParserI):
         while len(X):
             X = vectorizer.transform(X)
             clf.partial_fit(X, y, all_classes)
-            X, y = cls.get_minibatch(parsed_sentences, feature_detector, kwargs.get('batch_size', 50))
+            X, y = self.get_minibatch(parsed_sentences, feature_detector, kwargs.get('batch_size', 50))
 
         clf = Pipeline([
             ('vectorizer', vectorizer),
             ('classifier', clf)
         ])
 
-        return cls(clf, feature_detector)
+        return self(clf, feature_detector)
 
     def __init__(self, classifier, feature_detector):
         self._classifier = classifier
         self._feature_detector = feature_detector
 
     def parse(self, tokens):
-        """
-        Chunk a tagged sentence
-        :param tokens: List of words [(w1, t1), (w2, t2), ...]
-        :return: chunked sentence: nltk.Tree
-        """
         history = []
         iob_tagged_tokens = []
         for index, (word, tag) in enumerate(tokens):
@@ -211,7 +206,8 @@ class ScikitLearnChunker(ChunkParserI):
             history.append(iob_tag)
             iob_tagged_tokens.append((word, tag, iob_tag))
             # print(word, tag, iob_tag)
-        return conlltags2tree(iob_tagged_tokens)
+        # return conlltags2tree(iob_tagged_tokens)
+        return iob_tagged_tokens
 
     def score(self):
         if not os.path.exists("./ner_train") or len(os.listdir("./ner_train")) <= 0:
@@ -254,7 +250,7 @@ class ScikitLearnChunker(ChunkParserI):
 
     def predict_entity(self, query_str):
         result = self.parse(pos_tag(word_tokenize(query_str)))
-        result = tree2conlltags(result)
+        # result = tree2conlltags(result)
         return self.extract_entities(result)
 
 

@@ -7,5 +7,11 @@
     "delhi": "Teradata India Pvt. Ltd. Unit 303, Block 1, DLF Corporate Park, S Block, DLF City III, MG Road, Gurgaon 122002, Haryana - India",
     "mumbai": "Teradata India Pvt. Ltd, G1, Nomura Bldg., High Street, Hiranandani Business Park, Powai, Mumbai 400076",
     "india": "Hyderabad: 5th Floor, Orion Block, Ascendas, Plot #17, Software Units Layout, Inorbit Mall Rd, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081\nDelhi: Teradata India Pvt. Ltd. Unit 303, Block 1, DLF Corporate Park, S Block, DLF City III, MG Road, Gurgaon 122002, Haryana - India\nMumbai: Teradata India Pvt. Ltd, G1, Nomura Bldg., High Street, Hiranandani Business Park, Powai, Mumbai 400076"
-  }
+  },
+  "none": [
+    "Aparently I'm not intelligent enough for answer your question!",
+    "Okay! This is strange!",
+    "Mm-Hmm!\nLooks like my creator didn't make me intelligent enough to understand your question!",
+    "How I see it, there are two possibilities!\nEither you asked a question out of scope or I'm not intelligent enough to understand you!"
+  ]
 }
