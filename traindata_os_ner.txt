@@ -1,0 +1,167 @@
+may MD O
+the DT O
+force NN O
+be VB O
+with IN O
+you PRP O
+
+
+hail NN O
+hydra NN O
+
+
+what WP O
+comments NNS O
+does VBZ O
+that IN O
+issue NN O
+has VBZ O
+
+
+ttu JJ O
+support NN O
+for IN O
+windows8 NN OS
+
+
+ttu JJ O
+support NN O
+for IN O
+windows9 NN OS
+
+
+why WRB O
+is VBZ O
+it PRP O
+named VBD O
+teradata NN O
+
+
+significance NN O
+of IN O
+the DT O
+name NN O
+teradata NN O
+
+
+who WP O
+reported VBD O
+that IN O
+issue NN O
+
+
+who WP O
+is VBZ O
+the DT O
+reporter NN O
+of IN O
+that DT O
+issue NN O
+
+
+reporter NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-17 NNP ISU
+
+
+about IN O
+teradata NNS O
+
+
+and CC O
+the DT O
+truth NN O
+is VBZ O
+i JJ O
+am VBP O
+ironman JJ O
+
+
+list NN O
+all PDT O
+the DT O
+projects NNS O
+i VBP O
+am VBP O
+working VBG O
+on IN O
+
+
+who WP O
+is VBZ O
+the DT O
+assignee NN O
+of IN O
+that DT O
+issue NN O
+
+
+get VB O
+me PRP O
+info VB O
+about IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+advance NN O
+scouting VBG O
+on IN O
+windows10 JJ OS
+finish JJ O
+date NN O
+
+
+location NN O
+of IN O
+teradata NN O
+in IN O
+kolkata NN LOC
+
+
+teradata NNS O
+location NN O
+
+
+watchers NNS O
+on IN O
+that DT O
+issue NN O
+
+
+votes NNS O
+on IN O
+that DT O
+issue NN O
+
+
+hello NN O
+there RB O
+, , O
+you PRP O
+thing NN O
+! . O
+
+
+ttu NN O
+release NN O
+date NN O
+for IN O
+windows10 NN OS
+
+
+status NN O
+of IN O
+that DT O
+issue NN O
+
+
+issue NN O
+status NN O
+
+
+ttu NN O
+release NN O

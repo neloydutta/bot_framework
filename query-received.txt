@@ -1,0 +1,2 @@
+{"entities": {}, "result": {"intent": "jira.issue.reporter", "query_string": "who reported that issue"}}
+{"entities": {"ISU": ["SOMEKEY-10"]}, "result": {"intent": "jira.issue.reporter", "query_string": "who is the reporter of the issue SOMEKEY-10"}}

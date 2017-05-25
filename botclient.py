@@ -27,7 +27,7 @@ else:
 
 
 def reply(rchannel, message):
-    # print("bot: " + message)
+    print("bot: " + message)
     sc_bot.rtm_send_message(rchannel, message)
 
 
@@ -89,6 +89,7 @@ if __name__ == "__main__":
             if len(ret_list) == 2:
                 print("Context => Intent: " + ret_list[0] + ", Entity: " + json.dumps(ret_list[1]))
                 processing_reply(user_ip, ret_list[0], ret_list[1], channel)
+                continue
             # else:
             #     reply(channel, ret_list[0])
             # continue
