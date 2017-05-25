@@ -57,7 +57,8 @@ def read_gmb_ner(corpus_root):
                             standard_form_tokens.append((word, tag, ner))
 
                         conll_tokens = to_conll_iob(standard_form_tokens)
-                        yield conlltags2tree(conll_tokens)
+                        # yield conlltags2tree(conll_tokens)
+                        yield conll_tokens
 
 
 def shape(word):
@@ -91,11 +92,6 @@ def shape(word):
 stemmer = SnowballStemmer('english')
 
 def ner_features(tokenst, index, history):
-    """
-    `tokens`  = a POS-tagged sentence [(w1, t1), ...]
-    `index`   = the index of the token we want to extract features for
-    `history` = the previous predicted IOB tags
-    """
 
     # Pad the sequence with placeholders
     tokens = [('__START2__', '__START2__'), ('__START1__', '__START1__')] + tokenst + [('__END1__', '__END1__'),
@@ -147,17 +143,12 @@ def ner_features(tokenst, index, history):
 class ScikitLearnChunker(ChunkParserI):
     @classmethod
     def to_dataset(self, parsed_sentences, feature_detector):
-        """
-        Transform a list of tagged sentences into a scikit-learn compatible POS dataset
-        :param parsed_sentences:
-        :param feature_detector:
-        :return:
-        """
         X, y = [], []
         for parsed in parsed_sentences:
             if len(parsed) == 0:
                 continue
-            iob_tagged = tree2conlltags(parsed)
+            # iob_tagged = tree2conlltags(parsed)
+            iob_tagged = parsed
             words, tags, iob_tags = zip(*iob_tagged)
 
             tagged = list(zip(words, tags))
@@ -165,7 +156,6 @@ class ScikitLearnChunker(ChunkParserI):
             for index in range(len(iob_tagged)):
                 X.append(feature_detector(tagged, index, history=iob_tags[:index]))
                 y.append(iob_tags[index])
-
         return X, y
 
     @classmethod
@@ -259,7 +249,7 @@ def train():
         raise Exception("No Training-Data found!")
     reader_train = read_gmb_ner("./ner_train")
     all_classes = ['O', 'B-OS', 'I-OS', 'B-LOC', 'I-LOC', 'B-ISU', 'I-ISU']
-    pa_ner = ScikitLearnChunker.train(itertools.islice(reader_train, 50000), feature_detector=ner_features,
+    pa_ner = ScikitLearnChunker.train(itertools.islice(reader_train, None), feature_detector=ner_features,
                                       all_classes=all_classes, batch_size=50, n_iter=5)
     return pa_ner
 
