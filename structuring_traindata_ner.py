@@ -1,7 +1,9 @@
 from nltk import pos_tag
 from nltk import word_tokenize
-with open("sentences.txt") as fp:
+with open("sentences.txt", "r") as fp:
     raw_sentences = fp.read()
+with open("sentences.txt", "w") as fp:
+    fp.write("")
 
 raw_sentences = raw_sentences.strip().split('\n')
 

@@ -1,9 +1,13 @@
 # import botclient
 
+
 class ContextClass:
     def __init__(self):
         self.context_name = None
         self.context_value = None
+        self.context_value_jira = None
+        self.context_value_ttu = None
+        self.context_value_org = None
         self.context_intent = None
         self.handle_flag = False
 
@@ -12,7 +16,12 @@ class ContextClass:
             self.context_value = None
         self.context_name = name
         if value is not None:
-            self.context_value = value
+            if intent.startswith("jira"):
+                self.context_value_jira = value
+            elif intent.startswith("ttu"):
+                self.context_value_ttu = value
+            elif intent.startswith("teradata"):
+                self.context_value_org = value
         self.context_intent = intent
 
     def get_context(self):
@@ -27,8 +36,10 @@ class ContextClass:
         self.context_value = None
         self.context_intent = None
         self.handle_flag = False
-        if "ISU" in entity.keys() or "OS":
+        if "ISU" in entity.keys() and intent.startswith("jira"):
             # print("ISU")
+            return [intent, entity]
+        elif "OS" in entity.keys() and intent.startswith("ttu"):
             return [intent, entity]
         else:
             # print("NO ISU")

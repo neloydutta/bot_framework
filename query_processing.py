@@ -1,12 +1,12 @@
-import nltk
 import sqlite3
-from nltk import word_tokenize
-
 import jbot
 import json
+import bottoken
+from nltk import word_tokenize
 
-# jira = jbot.JIRAClass('http://localhost:8080/', 'neloydutta', 'laddu1993')
-jira = None
+
+jira = jbot.JIRAClass(bottoken.serverURL, bottoken.username, bottoken.password)
+# jira = None
 with open("replies.json", "r") as fp:
     replies = json.load(fp)
 with open('os_map.json') as fp:
@@ -45,8 +45,7 @@ def processing_jira_query(user_ip, user_intent, entities, context):
     reply = []
     if user_intent == "jira.find.projects":
         if jira is None:
-            reply.append(
-                "JIRA Connection isn't available.\nTo connect to JIRA, Enter following command:\nJIRA/ server-url username password")
+            reply.append("JIRA Connection isn't available.\nTo connect to JIRA, Enter following command:\nJIRA/ server-url username password")
             return reply
         projects = jira.find_projects()
         reply.append("These are all the projects, you are working on:")
@@ -68,8 +67,8 @@ def processing_jira_query(user_ip, user_intent, entities, context):
                 reply.append(jbot.issue_json_to_str(issue))
             context.set_context(name="jira", intent="jira.get.issue", value=entities)
         else:
-            if context.context_name == "jira" and context.context_value is not None:
-                reply += processing_jira_query(user_ip, "jira.get.issue", context.context_value, context)
+            if context.context_value_jira is not None:
+                reply += processing_jira_query(user_ip, "jira.get.issue", context.context_value_jira, context)
                 context.context_intent = "jira.get.issue"
             else:
                 context.context_name = "jira"
@@ -91,8 +90,8 @@ def processing_jira_query(user_ip, user_intent, entities, context):
                 reply.append(issue['fields']['status'])
             context.set_context(name="jira", intent="jira.issue.status", value=entities)
         else:
-            if context.context_name == "jira" and context.context_value is not None:
-                reply += processing_jira_query(user_ip, "jira.issue.status", context.context_value, context)
+            if context.context_value_jira is not None:
+                reply += processing_jira_query(user_ip, "jira.issue.status", context.context_value_jira, context)
                 context.context_intent = "jira.issue.status"
             else:
                 context.context_name = "jira"
@@ -115,8 +114,8 @@ def processing_jira_query(user_ip, user_intent, entities, context):
                 reply.append(issue['fields']['reporter'] + " reported the issue " + entities['ISU'][0])
             context.set_context(name="jira", intent="jira.issue.reporter", value=entities)
         else:
-            if context.context_name == "jira" and context.context_value is not None:
-                reply += processing_jira_query(user_ip, "jira.issue.reporter", context.context_value, context)
+            if context.context_value_jira is not None:
+                reply += processing_jira_query(user_ip, "jira.issue.reporter", context.context_value_jira, context)
                 context.context_intent = "jira.issue.reporter"
             else:
                 context.context_name = "jira"
@@ -148,6 +147,7 @@ def processing_jira_query(user_ip, user_intent, entities, context):
                 reply.append(reply_str)
             else:
                 reply.append("Couldn't find any issue which is assigned to you!")
+            context.set_context(name="jira", intent="jira.issue.assignee")
         else:
             if "ISU" in entities.keys():
                 issue = jira.find_issue(entities['ISU'][0])
@@ -159,8 +159,8 @@ def processing_jira_query(user_ip, user_intent, entities, context):
                     reply.append(issue['fields']['assignee'] + " is the assignee of the issue " + entities['ISU'][0])
                 context.set_context(name="jira", intent="jira.issue.assignee", value=entities)
             else:
-                if context.context_name == "jira" and context.context_value is not None:
-                    reply += processing_jira_query(user_ip, "jira.issue.assignee", context.context_value, context)
+                if context.context_value_jira is not None:
+                    reply += processing_jira_query(user_ip, "jira.issue.assignee", context.context_value_jira, context)
                     context.context_intent = "jira.issue.assignee"
                 else:
                     context.context_name = "jira"
@@ -186,8 +186,8 @@ def processing_jira_query(user_ip, user_intent, entities, context):
                 reply.append("It seems, there are no watchers for the issue " + entities['ISU'][0] + "!")
             context.set_context(name="jira", intent="jira.issue.watchers", value=entities)
         else:
-            if context.context_name == "jira" and context.context_value is not None:
-                reply += processing_jira_query(user_ip, "jira.issue.watchers", context.context_value, context)
+            if context.context_value_jira is not None:
+                reply += processing_jira_query(user_ip, "jira.issue.watchers", context.context_value_jira, context)
                 context.context_intent = "jira.issue.watchers"
             else:
                 context.context_name = "jira"
@@ -213,15 +213,14 @@ def processing_jira_query(user_ip, user_intent, entities, context):
                 reply.append("It seems, there are no comments on the issue " + entities['ISU'][0] + "!")
             context.set_context(name="jira", intent="jira.issue.comments", value=entities)
         else:
-            if context.context_name == "jira" and context.context_value is not None:
-                reply += processing_jira_query(user_ip, "jira.issue.comments", context.context_value, context)
+            if context.context_value_jira is not None:
+                reply += processing_jira_query(user_ip, "jira.issue.comments", context.context_value_jira, context)
                 context.context_intent = "jira.issue.comments"
             else:
                 context.context_name = "jira"
                 context.context_intent = "jira.issue.comments"
                 context.handle_flag = True
-                reply.append(
-                    'I\'m afraid, I couldn\'t understand the issue, whose comments you want, from the message!')
+                reply.append('I\'m afraid, I couldn\'t understand the issue, whose comments you want, from the message!')
                 reply.append("Reply with the ISSUE-ID again!")
     elif user_intent == "jira.issue.votes":
         if jira is None:
@@ -237,8 +236,8 @@ def processing_jira_query(user_ip, user_intent, entities, context):
                 reply.append("Issue " + entities['ISU'][0] + " has " + str(issue['fields']['votes']) + " votes!")
             context.set_context(name="jira", intent="jira.issue.votes", value=entities)
         else:
-            if context.context_name == "jira" and context.context_value is not None:
-                reply += processing_jira_query(user_ip, "jira.issue.votes", context.context_value, context)
+            if context.context_value_jira is not None:
+                reply += processing_jira_query(user_ip, "jira.issue.votes", context.context_value_jira, context)
                 context.context_intent = "jira.issue.votes"
             else:
                 context.context_name = "jira"
@@ -246,7 +245,7 @@ def processing_jira_query(user_ip, user_intent, entities, context):
                 context.handle_flag = True
                 reply.append('I\'m afraid, I couldn\'t understand the issue, whose votes you want, from the message!')
                 reply.append("Reply with the ISSUE-ID again!")
-        print(reply)
+        # print(reply)
     elif user_intent == "jira.issue.mine":
         if jira is None:
             reply.append(
@@ -262,7 +261,7 @@ def processing_jira_query(user_ip, user_intent, entities, context):
             reply.append(reply_str)
         else:
             reply.append("Couldn't find any issue which is assigned to you!")
-        context.set_context(name="jira", intent="jira.issue.mine", value=entities)
+        context.set_context(name="jira", intent="jira.issue.mine")
     else:
         reply.append("Okay! This is strange!")
         reply.append("Aparently, I'm not intelligent enough for answer your question!")
@@ -295,20 +294,20 @@ def fetch(sql):
 def processing_ttu_query(user_ip, user_intent, entities, context):
     reply = []
     if user_intent == "ttu.os.support":
-        context.set_context(name="ttu", intent="ttu.os.support")
         if "OS" in entities.keys():
             entity = entities["OS"][0]
+            res = "select osversion, reldate, iversion, lversion from supportmatrix where osversion like \"%" + entity + "%\""
         elif "ISU" in entities.keys():
             entity = entities["ISU"][0]
+            res = "select osversion, reldate, iversion, lversion from supportmatrix where osversion like \"%" + entity + "%\""
         else:
-            return ["I couldn't understand the OS for which you need information!"]
-        res = "select * from supportmatrix where osversion like \"%" + entity + "%\""
+            res = "select osversion, reldate, iversion, lversion from supportmatrix"
+            reply.append("Following are the Platforms supported by ttu:")
         for i in os_map.keys():
             for j in os_map[i]:
                 if j.lower() in res.lower():
                     res = res.lower().replace(j.lower(), i)
-        colheaders = ['os-version', 'release-date', 'comment', 'initial-version', 'latest-version',
-                              'advance-scouting', 'sheet']
+        colheaders = ['os-version', 'release-date', 'initial-version', 'latest-version']
         result = fetch(res)
         result = list(result)
         r = ""
@@ -324,9 +323,87 @@ def processing_ttu_query(user_ip, user_intent, entities, context):
                 r += i
             r += ' ;\n'
         if len(result) == 0:
+            reply = []
             r = "Couldn't find any relevant information for the os " + entity
         reply.append(r)
+        context.set_context(name="ttu", intent="ttu.os.support", value=entities)
+    elif user_intent == "ttu.os.release":
+        if "OS" in entities.keys():
+            entity = entities["OS"][0]
+            res = "select osversion, reldate, comment from supportmatrix where osversion like \"%" + entity + "%\""
+        elif "ISU" in entities.keys():
+            entity = entities["ISU"][0]
+            res = "select osversion, reldate, comment from supportmatrix where osversion like \"%" + entity + "%\""
+        else:
+            if context.context_value_ttu is not None:
+                return processing_ttu_query(user_ip, user_intent, context.context_value_ttu, context)
+            else:
+                context.set_context(name="ttu", intent="ttu.os.release")
+                context.handle_flag = True
+                return ["Couldn't understand the OS whose information you need!", "Reply with OS again!"]
+        for i in os_map.keys():
+            for j in os_map[i]:
+                if j.lower() in res.lower():
+                    res = res.lower().replace(j.lower(), i)
+        colheaders = ['os-version', 'release-date', 'comment']
+        result = fetch(res)
+        result = list(result)
+        r = ""
+        for i in result:
+            if type(i) is tuple and len(colheaders) != len(i):
+                r += ", ".join(i)
+            elif type(i) is tuple and len(colheaders) == len(i):
+                for j in range(len(colheaders)):
+                    r += colheaders[j] + ': ' + i[j]
+                    if j < len(colheaders) - 1:
+                        r += ', '
+            else:
+                r += i
+            r += ' ;\n'
+        if len(result) == 0:
+            reply = []
+            r = "Couldn't find any relevant information for the os " + entity
+        reply.append(r)
+        context.set_context(name="ttu", intent="ttu.os.release", value=entities)
+    elif user_intent == "ttu.os.scouting":
+        if "OS" in entities.keys():
+            entity = entities["OS"][0]
+            res = "select osversion, advancescoutin, comment from supportmatrix where osversion like \"%" + entity + "%\""
+        elif "ISU" in entities.keys():
+            entity = entities["ISU"][0]
+            res = "select osversion, advancescoutin, comment from supportmatrix where osversion like \"%" + entity + "%\""
+        else:
+            if context.context_value_ttu is not None:
+                return processing_ttu_query(user_ip, user_intent, context.context_value_ttu, context)
+            else:
+                context.set_context(name="ttu", intent="ttu.os.scouting")
+                context.handle_flag = True
+                return ["Couldn't understand the OS whose information you need!", "Reply with OS again!"]
+        for i in os_map.keys():
+            for j in os_map[i]:
+                if j.lower() in res.lower():
+                    res = res.lower().replace(j.lower(), i)
+        colheaders = ['os-version', 'advance-scouting', 'comment']
+        result = fetch(res)
+        result = list(result)
+        r = ""
+        for i in result:
+            if type(i) is tuple and len(colheaders) != len(i):
+                r += ", ".join(i)
+            elif type(i) is tuple and len(colheaders) == len(i):
+                for j in range(len(colheaders)):
+                    r += colheaders[j] + ': ' + i[j]
+                    if j < len(colheaders) - 1:
+                        r += ', '
+            else:
+                r += i
+            r += ' ;\n'
+        if len(result) == 0:
+            reply = []
+            r = "Couldn't find any relevant information for the os " + entity
+        reply.append(r)
+        context.set_context(name="ttu", intent="ttu.os.scouting", value=entities)
     else:
         reply.append("Okay! This is strange!")
-        reply.append("Aparently, I'm not intelligent enough for answer your question!")
+        reply.append("Apparently, I'm not intelligent enough for answer your question!")
     return reply

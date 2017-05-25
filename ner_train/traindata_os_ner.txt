@@ -1851,3 +1851,570 @@ windows VBZ OS
 
 
 y NN O
+
+
+ttu NN O
+support NN O
+
+
+ttu NN O
+support NN O
+
+
+does VBZ OS
+windows NNS OS
+10 CD OS
+has VBZ O
+a DT O
+ttu NN O
+supported VBN O
+version NN O
+
+
+ttu NN O
+support NN O
+
+
+windows NNS OS
+10 CD OS
+
+
+Windows NNS OS
+10 CD OS
+
+
+windows NNS OS
+8 CD OS
+
+
+Windows NNS OS
+8 CD OS
+
+
+windows NNS OS
+server NN OS
+2010 CD OS
+
+
+Windows NNS OS
+Server NNP OS
+2010 CD OS
+
+
+redhat RB OS
+7 CD OS
+
+
+RedHat $ OS
+7 CD OS
+
+
+zos NN OS
+3 CD OS
+
+
+zOS NN OS
+3 CD OS
+
+
+when WRB O
+will MD O
+advance VB O
+scouting VBG O
+finish JJ O
+for IN O
+Windows10 NNP OS
+
+
+when WRB O
+is VBZ O
+advance RB O
+scouting VBG O
+supposed VBN O
+to TO O
+finish VB O
+for IN O
+Windows8 NNP OS
+
+
+when WRB O
+is VBZ O
+advance RB O
+scouting VBG O
+expected VBN O
+to TO O
+finish VB O
+for IN O
+Windows7 NNP OS
+
+
+when WRB O
+is VBZ O
+advance RB O
+scouting VBG O
+scheduled VBN O
+to TO O
+finish VB O
+for IN O
+Windows7 NNP OS
+
+
+advance NN O
+scouting VBG O
+RedHat7 NNP OS
+
+
+comment NN O
+on IN O
+advance NN O
+scouting NN O
+for IN O
+Windows10 NNP OS
+
+
+is VBZ O
+oel JJ OS
+10 CD OS
+supported VBN O
+by IN O
+ttu NN O
+
+
+ttu JJ O
+support NN O
+for IN O
+windows NNS OS
+2012 CD OS
+
+
+do VBP O
+we PRP O
+have VB O
+ttu VBN O
+for IN O
+windows NNS OS
+10 CD OS
+
+
+what WP O
+is VBZ O
+the DT O
+ttu NN O
+status NN O
+for IN O
+windows NNS OS
+10 CD OS
+
+
+what WP O
+is VBZ O
+ttu JJ O
+status NN O
+for IN O
+redhat WP OS
+7 CD OS
+
+
+what WP O
+is VBZ O
+status NN O
+of IN O
+ttu NN O
+for IN O
+zos NN OS
+1.9 CD OS
+
+
+comment NN O
+on IN O
+ttu NN O
+for IN O
+windows NNS OS
+server RB OS
+2010 CD OS
+
+
+is VBZ O
+there EX O
+a DT O
+ttu JJ O
+version NN O
+supported VBD O
+on IN O
+suse NN OS
+linux NN OS
+10 CD OS
+
+
+do VBP O
+we PRP O
+have VB O
+ttu VBN O
+for IN O
+zvm NN OS
+3.1 CD OS
+
+
+is VBZ O
+there EX O
+a DT O
+ttu NN O
+version NN O
+for IN O
+windows NNS OS
+8 CD OS
+
+
+is VBZ O
+there EX O
+a DT O
+ttu NN O
+version NN O
+that WDT O
+supports VBZ O
+zVM CD OS
+4.1 CD OS
+
+
+is VBZ O
+there EX O
+a DT O
+ttu NN O
+version NN O
+which WDT O
+supports VBZ O
+zVM NN OS
+4.1 CD OS
+
+
+what WP O
+different JJ O
+os NN O
+does VBZ O
+ttu VB O
+supports NNS O
+
+
+what WP O
+operating VBG O
+systems NNS O
+are VBP O
+supported VBN O
+by IN O
+ttu NN O
+
+
+what WP O
+os NN O
+does VBZ O
+ttu VB O
+supports NNS O
+
+
+what WP O
+different JJ O
+os NN O
+has VBZ O
+ttu VBN O
+support NN O
+
+
+what WP O
+all DT O
+operating NN O
+systems NNS O
+has VBZ O
+ttu JJ O
+support NN O
+
+
+what WP O
+is VBZ O
+the DT O
+most RBS O
+recent JJ O
+ttu NN O
+version NN O
+that WDT O
+supports VBZ O
+windows7 NN OS
+
+
+latest JJS O
+ttu NN O
+version NN O
+for IN O
+windows10 NN OS
+
+
+will MD O
+ttu VB O
+release NN O
+for IN O
+windows10 NN OS
+
+
+will MD O
+there RB O
+be VB O
+a DT O
+ttu JJ O
+release NN O
+for IN O
+windows8 NN OS
+
+
+is VBZ O
+there EX O
+a DT O
+ttu NN O
+release NN O
+planned VBN O
+for IN O
+windows7 NN OS
+
+
+is VBZ O
+there EX O
+a DT O
+ttu NN O
+release NN O
+scheduled VBN O
+for IN O
+zvm3.1 NN OS
+
+
+is VBZ O
+there RB O
+going VBG O
+to TO O
+be VB O
+a DT O
+ttu JJ O
+release NN O
+for IN O
+zos1.9 NN OS
+
+
+when WRB O
+will MD O
+ttu VB O
+release NN O
+for IN O
+redhat7 NN OS
+
+
+ttu NN O
+release NN O
+for IN O
+rhel7 NN OS
+
+
+ttu NN O
+release NN O
+date NN O
+for IN O
+rhel NN OS
+7 CD OS
+
+
+what WP O
+is VBZ O
+ttu JJ O
+release NN O
+date NN O
+for IN O
+macos NN OS
+x NN OS
+
+
+ttu JJ O
+release NN O
+schedule NN O
+for IN O
+Windows10 NNP OS
+
+
+when WRB O
+is VBZ O
+ttu JJ O
+release NN O
+schedule NN O
+for IN O
+zOS1.9 NN OS
+
+
+expected VBN O
+ttu JJ O
+release NN O
+date NN O
+for IN O
+Windows NNP OS
+Server NNP OS
+2013 CD OS
+
+
+ttu NN O
+release NN O
+windows VBZ OS
+7 CD OS
+
+
+what WP O
+all DT O
+platforms NNS O
+are VBP O
+supported VBN O
+by IN O
+ttu NN O
+
+
+does VBZ O
+Windows10 NNP OS
+has VBZ O
+ttu VBN O
+support NN O
+
+
+advance NN O
+scouting VBG O
+for IN O
+ttu NN O
+on IN O
+that DT O
+os NN O
+
+
+when WRB O
+is VBZ O
+advance RB O
+scouting VBG O
+supposed VBN O
+to TO O
+finish VB O
+for IN O
+Windows8 NNP OS
+
+
+release NN O
+date NN O
+for IN O
+ttu NN O
+on IN O
+zos1.9 NN OS
+
+
+ttu NN O
+release NN O
+date NN O
+
+
+about IN O
+teradata NNS O
+
+
+teradata NN O
+location NN O
+in IN O
+hyderabad NN LOC
+
+
+advance NN O
+scouting VBG O
+for IN O
+windows NNS OS
+10 CD OS
+
+
+advance NN O
+scouting VBG O
+for IN O
+that DT O
+os NN O
+
+
+ttu NN O
+release NN O
+for IN O
+that DT O
+os NN O
+
+
+who WP O
+is VBZ O
+the DT O
+reporter NN O
+of IN O
+that DT O
+issue NN O
+
+
+who WP O
+reported VBD O
+that IN O
+issue NN O
+
+
+who WP O
+is VBZ O
+the DT O
+reporter NN O
+of IN O
+that DT O
+issue NN O
+
+
+tell VB O
+me PRP O
+ttu JJ O
+release NN O
+date NN O
+for IN O
+rhel NN OS
+7 CD OS
+
+
+i NN O
+got VBD O
+nothing NN O
+here RB O
+
+
+what WP O
+about IN O
+advance NN O
+scouting NN O
+for IN O
+that DT O
+os NN O
+
+
+advance NN O
+scouting VBG O
+for IN O
+zOS NN OS
+1.9 CD OS
+
+
+how WRB O
+many JJ O
+votes NNS O
+does VBZ O
+that IN O
+issue NN O
+has VBZ O
+
+
+status NN O
+of IN O
+the DT O
+issue NN O
+SOMEKEY-10 NNP ISU
+
+
+what WP O
+comments NNS O
+does VBZ O
+that IN O
+issue NN O
+has VBZ O

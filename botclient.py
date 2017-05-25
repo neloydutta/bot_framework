@@ -44,15 +44,15 @@ def read_from_slack():
                 return ichannel, command
     return None, None
 
-# jira = jbot.JIRAClass('http://localhost:8080/', 'neloydutta', 'laddu1993')
-jira = None
+jira = jbot.JIRAClass(bottoken.serverURL, bottoken.username, bottoken.password)
+# jira = None
 context = ContextClass()
 
 
 def processing_reply(user_ip, user_intent, entities, channel):
     if user_intent.startswith("jira"):
-        # ret = query_processing.processing_jira_query(user_ip=user_ip, user_intent=user_intent, entities=entities, context=context)
-        ret = ["No JIRA, " + user_intent]
+        ret = query_processing.processing_jira_query(user_ip=user_ip, user_intent=user_intent, entities=entities, context=context)
+        # ret = ["No JIRA, " + user_intent + " :: " + json.dumps(entities)]
     elif user_intent.startswith("teradata"):
         ret = query_processing.processing_org_query(user_ip=user_ip, user_intent=user_intent, entities=entities, context=context)
     elif user_intent.startswith("ttu"):
@@ -61,7 +61,7 @@ def processing_reply(user_ip, user_intent, entities, channel):
         reply(channel, replies["greet"])
         return
     else:
-        idx = random.randrange(start= 0, stop=len(replies["none"]))
+        idx = random.randrange(start=0, stop=len(replies["none"]))
         reply(channel, replies["none"][idx])
         return
     for msg in ret:
@@ -87,10 +87,11 @@ if __name__ == "__main__":
         if context.handle_flag is True:
             ret_list = context.handle_context(user_ip, bot_client)
             if len(ret_list) == 2:
+                print("Context => Intent: " + ret_list[0] + ", Entity: " + json.dumps(ret_list[1]))
                 processing_reply(user_ip, ret_list[0], ret_list[1], channel)
-            else:
-                reply(channel, ret_list[0])
-            continue
+            # else:
+            #     reply(channel, ret_list[0])
+            # continue
         if user_ip.lower().startswith("jira/"):
             user_ip = user_ip[5:]
             user_ip = user_ip.strip()
